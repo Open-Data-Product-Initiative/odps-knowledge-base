@@ -1,6 +1,6 @@
 schema: 'https://opendataproducts.org/v3.1/schema/odps.yaml'
 version: 3.1
-product:
+Product:
   contract:
     id: 02323M123
     type: ODCS
