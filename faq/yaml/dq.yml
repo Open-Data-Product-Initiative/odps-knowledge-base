@@ -42,13 +42,13 @@ product:
         - Standard access to event metadata
         - Up to 100 SQL queries per month
         paymentGateway:
-          $ref: '#/paymentGateways/default'
+          $ref: '#/Product/paymentGateways/default'
         dataQuality:
-          $ref: '#/dataQuality/default'
+          $ref: '#/Product/dataQuality/default'
         SLA:
-          $ref: '#/SLA/default'
+          $ref: '#/Product/SLA/default'
         access:
-          $ref: '#/dataAccess/API'
+          $ref: '#/Product/dataAccess/API'
   SLA:
     default:
       name:
