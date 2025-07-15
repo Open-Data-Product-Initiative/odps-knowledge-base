@@ -39,7 +39,7 @@ If you can not find what you are looking for, [raise an issue and describe the n
 
 # ODPS Discourse Server
 
-The [ODPS Discourse Server](https://discord.gg/86KxnTWF) is an online **community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS)**. It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
+The [ODPS Discourse Server](https://discord.gg/7KfnFxAc) is an online **community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS)**. It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
 
 ---
 
