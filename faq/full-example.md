@@ -11,11 +11,11 @@ Let’s break it down using the **UrbanPulse Events** product example.
 Every ODPS YAML starts by declaring the schema and version:
 
 ```yaml
-schema: 'https://opendataproducts.org/v3.1/schema/odps.yaml'
-version: 3.1
+schema: 'https://opendataproducts.org/v4.0/schema/odps.yaml'
+version: 4.0
 ```
 
-This line links the product to the ODPS v3.1 validation rules.
+This line links the product to the ODPS v4.0 validation rules.
 
 ---
 
@@ -64,9 +64,9 @@ pricingPlans:
       - name: Basic Reader
         price: 0
         SLA:
-          $ref: '#/SLA/default'
+          $ref: '#/Product/SLA/default'
         dataQuality:
-          $ref: '#/dataQuality/default'
+          $ref: '#/Product/dataQuality/default'
 ```
 
 Instead of repeating service levels, it uses references. This helps maintain consistency.
