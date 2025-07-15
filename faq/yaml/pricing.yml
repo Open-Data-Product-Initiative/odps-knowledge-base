@@ -1,6 +1,6 @@
 schema: 'https://opendataproducts.org/v4.0/schema/odps.yaml'
 version: 4.0
-Product:
+product:
   details:
     en:
       name: UrbanPulse Events
@@ -44,13 +44,13 @@ Product:
             Shadow pricing only for internal visibility. No actual billing
             applied.
           paymentGateway:
-            $ref: '#/Product/paymentGateways/default'
+            $ref: '#/product/paymentGateways/default'
           dataQuality:
-            $ref: '#/Product/dataQuality/default'
+            $ref: '#/product/dataQuality/default'
           SLA:
-            $ref: '#/Product/SLA/default'
+            $ref: '#/product/SLA/default'
           access:
-            $ref: '#/Product/dataAccess/API'
+            $ref: '#/product/dataAccess/API'
         - name: Extended User
           priceCurrency: USD
           price: 300
@@ -78,13 +78,13 @@ Product:
             - Guaranteed SLA for availability and response time
           notes: Shadow pricing for strategic high-usage internal consumers.
           paymentGateway:
-            $ref: '#/Product/paymentGateways/agent'
+            $ref: '#/product/paymentGateways/agent'
           dataQuality:
-            $ref: '#/Product/dataQuality/premium'
+            $ref: '#/product/dataQuality/premium'
           SLA:
-            $ref: '#/Product/SLA/premium'
+            $ref: '#/product/SLA/premium'
           access:
-            $ref: '#/Product/dataAccess/Agent'
+            $ref: '#/product/dataAccess/Agent'
   SLA:
     declarative:
       default:
