@@ -16,7 +16,7 @@ Join our community forum to ask questions, share ideas, and collaborate on Open 
 
 Access a growing knowledge base of frequently asked questions, with practical YAML examples to help you apply ODPS effectively.
 
-- [See more](#faq-and-resource-index)
+- [See more](#FAQ-with-examples)
 
 **Udemy MasterClasses**
 
