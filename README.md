@@ -129,7 +129,8 @@ This section helps you understand and apply the [ODPS specification](https://ope
 
 ## 🛠️ Practical Use & Validation
 
-- [How do I validate an ODPS YAML file?](faq/validation.md)  
+- [How do I validate an ODPS specs in tools?](faq/validate.md) 
+- [How do I validate an ODPS YAML file?](faq/validation.md)   
 - [Are there templates I can use to start faster?](faq/templates.md)  
 
 ---
