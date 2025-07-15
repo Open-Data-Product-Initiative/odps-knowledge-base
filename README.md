@@ -47,7 +47,7 @@ The [ODPS Discourse Server](https://discord.gg/86KxnTWF) is an online **communit
 
 If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
 
-- **Data Product MasterClass (coming Aug 2025)**  
+- **Open Data Product Specification Introduction (coming Aug 2025)**  
   Introduction to ODPS as a short Udemy course. Not too technical, but not just "slides" either. Suitable for Architects, Business Management and Data Product Managers.  
 
 - **[Data Product Monetization MasterClass](https://www.udemy.com/course/data-product-monetization-masterclass/)**  
