@@ -1,6 +1,6 @@
 schema: 'https://opendataproducts.org/v3.1/schema/odps.yaml'
 version: 3.1
-Product:
+product:
   contract:
     id: 02323M123
     type: ODCS
@@ -61,12 +61,12 @@ Product:
             Shadow pricing only for internal visibility. No actual billing
             applied.
           paymentGateway:
-            $ref: '#/Product/paymentGateways/default'
+            $ref: '#/product/paymentGateways/default'
           dataQuality:
-            $ref: '#/Product/dataQuality/declarative/default'
+            $ref: '#/product/dataQuality/declarative/default'
 
           SLA:
-            $ref: '#/Product/SLA/declarative/default'
+            $ref: '#/product/SLA/declarative/default'
 
             
           access:
@@ -86,13 +86,13 @@ Product:
             Shadow pricing estimate based on infrastructure and operational cost
             models.
           paymentGateway:
-            $ref: '#/Product/paymentGateways/default'
+            $ref: '#/product/paymentGateways/default'
           dataQuality:
-            $ref: '#/Product/dataQuality/declarative/default'
+            $ref: '#/product/dataQuality/declarative/default'
           SLA:
-            $ref: '#/Product/SLA/declarative/default'
+            $ref: '#/product/SLA/declarative/default'
           access:
-            $ref: '#/Product/dataAccess/API'
+            $ref: '#/product/dataAccess/API'
         - name: High Volume Access
           priceCurrency: USD
           price: 2000
@@ -105,13 +105,13 @@ Product:
             - Guaranteed SLA for availability and response time
           notes: Shadow pricing for strategic high-usage internal consumers.
           paymentGateway:
-            $ref: '#/Product/paymentGateways/agent'
+            $ref: '#/product/paymentGateways/agent'
           dataQuality:
-            $ref: '#/Product/dataQuality/declarative/premium'
+            $ref: '#/product/dataQuality/declarative/premium'
           SLA:
-            $ref: '#/Product/SLA/declarative/premium'
+            $ref: '#/product/SLA/declarative/premium'
           access:
-            $ref: '#/Product/dataAccess/Agent'
+            $ref: '#/product/dataAccess/Agent'
   SLA:
     declarative:
       default:
