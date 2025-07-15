@@ -1,6 +1,6 @@
 schema: https://opendataproducts.org/v3.1/schema/odps.yaml
 version: '3.1'
-Product:
+product:
   contract:
     id: 02323M123
     type: ODCS
@@ -42,13 +42,13 @@ Product:
         - Standard access to event metadata
         - Up to 100 SQL queries per month
         paymentGateway:
-          $ref: '#/Product/paymentGateways/default'
+          $ref: '#/product/paymentGateways/default'
         dataQuality:
-          $ref: '#/Product/dataQuality/default'
+          $ref: '#/product/dataQuality/default'
         SLA:
-          $ref: '#/Product/SLA/default'
+          $ref: '#/product/SLA/default'
         access:
-          $ref: '#/Product/dataAccess/API'
+          $ref: '#/product/dataAccess/API'
   SLA:
     default:
       name:
