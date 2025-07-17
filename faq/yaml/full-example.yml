@@ -1,5 +1,5 @@
-schema: 'https://opendataproducts.org/v3.1/schema/odps.yaml'
-version: 3.1
+schema: 'https://opendataproducts.org/v4.0/schema/odps.yaml'
+version: 4.0
 product:
   contract:
     id: 02323M123
