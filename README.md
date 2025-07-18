@@ -30,6 +30,13 @@ Download free canvases (CC-BY) to design, measure, and manage data products usin
 
 - [See more](#data-product-toolkit)
 
+**YAML Builder for Open Data Products (GPT)**
+
+Helps author YAML for Open Data Product Specification with live output. A custom built GPT in OpenAI. Warning! Might hallicinate, so always double check the result, but still good for learning purposes. 
+
+- [See more](#YAMLBuilder-for-Open-Data-Products)
+
+
 ## What if I can not find what I was looking for?
 
 If you can not find what you are looking for, [raise an issue and describe the need](https://github.com/Open-Data-Product-Initiative/odps-examples/issues). 
@@ -65,6 +72,30 @@ If you're looking to apply ODPS in real-world business scenarios, including **mo
 The Data Product Toolkit is a free, open set of canvases designed to help teams design, measure, and manage data products effectively. It includes practical frameworks like the Data Product Canvas 2.1, Value Measure Framework, Blueprint Model, and more — all licensed under CC-BY. The toolkit guides you through defining use cases, aligning business value, and ensuring governance and scalability for successful data product development 
 
 [Get your copy](./resources/Data_Product_Toolkit.pdf)
+
+
+# YAML Builder for Open Data Products
+
+This tool assists data practitioners in authoring, validating, and maintaining machine-readable YAML documents that conform to the Open Data Product Specification (ODPS). It ensures strict compliance with the ODPS schema, supporting both interactive construction and troubleshooting of ODPS data product YAML files.
+
+**Core Features:**
+
+* ODPS Compliance: Every YAML definition generated is validated against the ODPS 4.0 schema and is ready for use in data product catalogs, marketplaces, or governance tooling.
+
+* Schema Guidance: Provides detailed, context-sensitive explanations of each ODPS component, including Data Product Details, Data Contract, Data Holder, Data Access, and more, leveraging official schema and documentation references.
+
+* Reference Support: Supports ODPS-native referencing (with $ref), enabling modular YAMLs, DRY principles, and scalable metadata management for SLA, DQ, access, or pricing profiles.
+
+* Multilingual Structure: Allows structuring of business and product details in multiple languages according to ODPS patterns.
+
+* Spec-Driven: All fields, options, and object nesting strictly follow the official ODPS specification—no fields are invented or assumed beyond the standard.
+
+* Example-First: Provides real-world, spec-conformant YAML snippets for each ODPS object for rapid onboarding and as templates for new products.
+
+* Download-Ready Output: Presents the resulting YAML in a copyable, downloadable format for immediate integration into CI/CD, validation, or product onboarding flows.
+
+[Open ODPS GPT in OpenAI](https://chatgpt.com/g/g-687a26b92c20819182e92a8641fbd02f-yaml-builder-for-open-data-products)
+
 
 
 
