@@ -34,7 +34,7 @@ Download free canvases (CC-BY) to design, measure, and manage data products usin
 
 Helps author YAML for Open Data Product Specification with live output. A custom built GPT in OpenAI. Warning! Might hallicinate, so always double check the result, but still good for learning purposes. 
 
-- [See more](#YAMLBuilder-for-Open-Data-Products)
+- [See more](#yamlbuilder-for-open-data-products)
 
 
 ## What if I can not find what I was looking for?
