@@ -6,11 +6,11 @@
 
 The Open Data Product Specification (ODPS) is a vendor-neutral, open-source, machine-readable metadata model for defining and managing data products in a consistent, interoperable way. Backed by the Linux Foundation, ODPS helps organizations build data products that align business value, governance, and technical delivery
 
-**Discourse Server for collaboration**
+**Discord Server for collaboration**
 
 Join our community forum to ask questions, share ideas, and collaborate on Open Data Product Specification (ODPS) adoption.
 
-- [See more](#odps-discourse-server)
+- [See more](#odps-discord-server)
 
 **FAQ with examples**
 
@@ -44,9 +44,9 @@ If you can not find what you are looking for, [raise an issue and describe the n
 
 ---
 
-# ODPS Discourse Server
+# ODPS Discord Server
 
-The [ODPS Discourse Server](https://discord.gg/7KfnFxAc) is an online **community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS)**. It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
+The [ODPS Discord Server](https://discord.gg/7KfnFxAc) is an online **community forum designed to support collaboration, knowledge sharing, and discussion around the Open Data Product Specification (ODPS)**. It provides a space where practitioners, spec authors, and adopters can ask questions, share ideas, propose improvements, and connect with peers in the data product ecosystem. The platform helps strengthen community-driven development and best practices for ODPS.
 
 ---
 
