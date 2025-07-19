@@ -76,7 +76,7 @@ The Data Product Toolkit is a free, open set of canvases designed to help teams 
 
 # YAML Builder for Open Data Products
 
-This tool assists data practitioners in authoring, validating, and maintaining machine-readable YAML documents that conform to the Open Data Product Specification (ODPS). It ensures strict compliance with the ODPS schema, supporting both interactive construction and troubleshooting of ODPS data product YAML files.
+This tool assists data practitioners in authoring, validating, and maintaining machine-readable YAML documents that conform to the Open Data Product Specification (ODPS). It ensures strict compliance with the ODPS schema, supporting both interactive construction and troubleshooting of ODPS data product YAML files. **Remember** it is AI and might hallucinate. Always double check the results. 
 
 **Core Features:**
 
