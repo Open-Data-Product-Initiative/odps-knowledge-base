@@ -64,7 +64,7 @@ If you're looking to apply ODPS in real-world business scenarios, including **mo
 - **[Udemy Data Product MasterClass](https://datamaestroacademy.com/courses/data-product-fundamentals)**  
   Adopt the data product mindset with practical frameworks, blueprints, and actionable strategies that build on ODPS concepts. Features real-world examples, and AI-powered narration.
 
-- **[Udemy Minimum Lovable Governance](https://datamaestroacademy.com/courses/data-product-governance)/)**  
+- **[Udemy Minimum Lovable Governance](https://datamaestroacademy.com/courses/data-product-governance)**  
   Adopt the data product mindset with practical frameworks, blueprints, and actionable strategies that build on ODPS concepts. Features real-world examples, and AI-powered narration.
   
 👉 *All courses are designed to complement this knowledge base—helping you move from learning the spec to delivering business impact.*
