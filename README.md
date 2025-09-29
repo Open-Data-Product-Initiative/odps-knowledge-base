@@ -54,17 +54,20 @@ The [ODPS Discord Server](https://discord.gg/7KfnFxAc) is an online **community 
 
 If you're looking to apply ODPS in real-world business scenarios, including **monetization strategies, AI agent readiness, and MCP integration**, check out these advanced Udemy courses:
 
-- **[Udemy course - Master the Leading Data Product Specification with GPT tool](https://www.udemy.com/course/master-the-open-data-product-specification-with-gpt-tool)**
+- **[Udemy course - Master the Leading Data Product Specification with GPT tool](https://www.udemy.com/course/master-the-open-data-product-specification-with-gpt-tool/?referralCode=7602F38C9E58976291A3)**
  
   Introduction to ODPS as a short Udemy course. Not too technical, but not just "slides" either. Suitable for Architects, Business Management and Data Product Managers.  
 
-- **[Data Product Monetization MasterClass](https://www.udemy.com/course/data-product-monetization-masterclass/)**  
+- **[Udemy Data Product Monetization MasterClass](https://datamaestroacademy.com/courses/data-product-monetization)**  
   Learn how to turn ODPS-based data products into scalable revenue streams, including machine-readable pricing, AI agent monetization, and shadow pricing templates. Includes a complete Monetization Toolkit.
 
-- **[Data Product MasterClass](https://www.udemy.com/course/data-product-mindset/)**  
+- **[Udemy Data Product MasterClass](https://datamaestroacademy.com/courses/data-product-fundamentals)**  
   Adopt the data product mindset with practical frameworks, blueprints, and actionable strategies that build on ODPS concepts. Features real-world examples, and AI-powered narration.
 
-👉 *Both courses are designed to complement this knowledge base—helping you move from learning the spec to delivering business impact.*
+- **[Udemy Minimum Lovable Governance](https://datamaestroacademy.com/courses/data-product-governance)/)**  
+  Adopt the data product mindset with practical frameworks, blueprints, and actionable strategies that build on ODPS concepts. Features real-world examples, and AI-powered narration.
+  
+👉 *All courses are designed to complement this knowledge base—helping you move from learning the spec to delivering business impact.*
 
 ---
 
