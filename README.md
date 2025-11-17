@@ -158,7 +158,8 @@ This section helps you understand and apply the [ODPS specification](https://ope
 ## 🤖 AI & Automation
 
 - [How does ODPS support AI agent consumption?](faq/ai-agent-consumption.md)  
-- [How to use ODPS spec with LLMs.txt?](faq/odps-llms-txt.md)  
+- [How to use ODPS spec with LLMs.txt?](faq/odps-llms-txt.md)
+- [How to build AI-assisted Minimum Lovable Governance with Claude?](https://github.com/Data-Maestro-Academy/DIY-MLG)
 
 
 ---
