@@ -119,7 +119,7 @@ Apply ODPS in real-world business scenarios with structured training on monetiza
 
 ## YAML Builder for Open Data Products
 
-An AI-assisted tool for authoring and validating ODPS YAML. It helps generate schema-compliant output, but should be used with manual review.
+An AI-assisted tool for authoring and validating ODPS 4.0 YAML. It helps generate schema-compliant output, but should be used with manual review.
 
 - ODPS-compliant YAML generation
 - Schema-aware guidance for contracts, access, pricing, SLA, and DQ
