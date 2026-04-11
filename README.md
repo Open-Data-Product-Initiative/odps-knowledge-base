@@ -11,7 +11,6 @@ A practical reference for the Open Data Product Specification (ODPS). This repo 
 - [Download the toolkit](#data-product-toolkit)
 - [See the courses](#udemy-masterclasses)
 - [Use the YAML builder](#yaml-builder-for-open-data-products)
-- [External resources](#external-resources)
 - [Raise an issue](https://github.com/Open-Data-Product-Initiative/odps-examples/issues)
 
 ## What is in this repo?
@@ -20,10 +19,6 @@ A practical reference for the Open Data Product Specification (ODPS). This repo 
 - `faq/yaml/` — companion YAML source examples for each FAQ topic
 - `ODPS4/` — sample Open Data Product YAMLs for schema and product patterns
 - `resources/` — toolkit files, visuals, and supporting downloads
-
-## External resources
-
-- [Accenture odps-python](https://github.com/Accenture/odps-python) — Python library for working with ODPS definitions programmatically
 
 ## Why use it?
 
@@ -49,6 +44,11 @@ This section helps you understand and apply the [ODPS specification](https://ope
 - [What are the required and optional sections in ODPS?](faq/required-optional.md)
 - [How do I define metadata for my data product?](faq/define-metadata.md)
 - [How do I define related products and use cases?](faq/define-related.md)
+
+### 📄 Product Strategy and linking to Business Objectives
+
+- [How do I define a product strategy and what is it?](faq/productstrategy.md)
+- [How do I define product internal KPIs to measure product?](faq/productKPIs.md)
 
 ### 📄 Contract & Licensing
 
