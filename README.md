@@ -8,7 +8,7 @@ A practical reference for the Open Data Product Specification (ODPS). This repo 
 
 - [What is this repo?](#what-is-in-this-repo)
 - [Browse the FAQ](#faq-with-examples)
-- [Download the toolkit](#data-product-toolkit)
+- [Download the toolkit and Python library](#data-product-toolkit-and-python-library)
 - [See the courses](#udemy-masterclasses)
 - [Use the YAML builder](#yaml-builder-for-open-data-products)
 - [Raise an issue](https://github.com/Open-Data-Product-Initiative/odps-examples/issues)
@@ -89,11 +89,10 @@ This section helps you understand and apply the [ODPS specification](https://ope
 
 ---
 
-## Data Product Toolkit
+## Data Product Toolkit and Python Library
 
-A free, open set of canvases for designing, measuring, and managing data products. Includes frameworks such as Data Product Canvas 2.1, Value Measure Framework, and Blueprint Model.
-
-[Download the toolkit](./resources/Data_Product_Toolkit.pdf)
+- A free, open set of canvases for designing, measuring, and managing data products. Includes frameworks such as Data Product Canvas 2.1, Value Measure Framework, and Blueprint Model. [Download the toolkit](./resources/Data_Product_Toolkit.pdf)
+- A comprehensive, high-performance Python library for creating, validating, and manipulating Open Data Product Specification (ODPS) v4.0 documents with full international standards compliance. [Get the Library](https://github.com/Accenture/odps-python)
 
 ---
 
