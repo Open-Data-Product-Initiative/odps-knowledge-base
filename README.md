@@ -1,17 +1,19 @@
 <p align="center">
-  <img src="resources/header.png" alt="ODPS Knowledge Base" width="100%">
+  <img src="resources/header.png" alt="Open Data Product Standards Knowledge Base" width="100%">
 </p>
 
-<h1 align="center">ODPS Knowledge Base</h1>
+<h1 align="center">Open Data Product Standards Knowledge Base</h1>
 
 <p align="center">
-  A practical reference for the <strong>Open Data Product Specification (ODPS)</strong>, combining learning resources, sample YAML, reusable patterns, and FAQ guidance for interoperable data products.
+  A practical knowledge space for the <strong>OpenDataProducts.org standards family</strong>, including ODPS, ODPC, ODPV, and future ODPG guidance.
 </p>
 
 <p align="center">
   <a href="https://opendataproducts.org/"><img alt="ODPS specification" src="https://img.shields.io/badge/ODPS-Specification-0B5FFF"></a>
+  <a href="#odpc-catalogs-and-portfolio-management"><img alt="ODPC catalogs" src="https://img.shields.io/badge/ODPC-Catalogs-0A7F78"></a>
+  <a href="#odpv-vocabulary-and-shared-terms"><img alt="ODPV vocabulary" src="https://img.shields.io/badge/ODPV-Vocabulary-6F42C1"></a>
   <a href="#faq-with-examples"><img alt="FAQ examples" src="https://img.shields.io/badge/FAQ-Examples-198754"></a>
-  <a href="#data-product-toolkit-and-python-library"><img alt="Resources" src="https://img.shields.io/badge/Resources-Toolkit%20%26%20Library-6F42C1"></a>
+  <a href="#data-product-toolkit-and-python-library"><img alt="Resources" src="https://img.shields.io/badge/Resources-Toolkit%20%26%20Library-FD7E14"></a>
   <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-FD7E14"></a>
 </p>
 
@@ -20,12 +22,12 @@
 <table>
   <tr>
     <td><strong>Browse the FAQ</strong></td>
-    <td>Learn ODPS, ODPC, and ODPV concepts through practical answers and implementation examples.</td>
+    <td>Learn the standards family through practical answers and implementation examples.</td>
     <td><a href="#faq-with-examples">Open FAQ</a></td>
   </tr>
   <tr>
     <td><strong>Use example YAML</strong></td>
-    <td>Copy reusable patterns for contracts, pricing, access, SLA, data quality, and references.</td>
+    <td>Copy reusable patterns for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.</td>
     <td><a href="faq/yaml">View YAML</a></td>
   </tr>
   <tr>
@@ -35,7 +37,7 @@
   </tr>
   <tr>
     <td><strong>Build with AI assistance</strong></td>
-    <td>Use the YAML Builder GPT to author and validate ODPS 4.0 YAML faster.</td>
+    <td>Use the YAML Builder GPT and FAQ examples to author and review machine-readable data product metadata faster.</td>
     <td><a href="#yaml-builder-for-open-data-products">Open builder</a></td>
   </tr>
 </table>
@@ -49,7 +51,7 @@
   </tr>
   <tr>
     <td><code>faq/</code></td>
-    <td>Curated question-and-answer pages with real ODPS examples.</td>
+    <td>Curated question-and-answer pages for Open Data Product standards.</td>
   </tr>
   <tr>
     <td><code>faq/yaml/</code></td>
@@ -70,7 +72,7 @@
 <table>
   <tr>
     <td><strong>Example-first learning</strong></td>
-    <td>Understand ODPS through applied examples rather than specification text alone.</td>
+    <td>Understand Open Data Product standards through applied examples rather than specification text alone.</td>
   </tr>
   <tr>
     <td><strong>Reusable YAML patterns</strong></td>
@@ -82,7 +84,7 @@
   </tr>
   <tr>
     <td><strong>Adoption support</strong></td>
-    <td>Use training, templates, and tools that help teams move faster with ODPS.</td>
+    <td>Use training, templates, and tools that help teams move faster with the standards family.</td>
   </tr>
 </table>
 
@@ -90,7 +92,7 @@
 
 ## FAQ with examples
 
-This section helps you understand and apply the [ODPS specification](https://opendataproducts.org/) and related OpenDataProducts.org standards through practical, modular examples. The FAQs are grouped by specification so you can start with the standard you are using.
+This section helps you understand and apply the OpenDataProducts.org standards family through practical, modular examples. The FAQs are grouped by specification so you can start with the standard you are using.
 
 - explanation of the concept
 - plain YAML snippets
@@ -198,13 +200,13 @@ Apply ODPS in real-world business scenarios with structured training on monetiza
 - **[Master the Leading Data Product Specification with GPT tool](https://www.udemy.com/course/master-the-open-data-product-specification-with-gpt-tool/?referralCode=7602F38C9E58976291A3)**
   A focused introduction to ODPS for architects, business managers, and product owners.
 
-- **[Data Product Monetization MasterClass](https://datamaestroacademy.com/courses/data-product-monetization)**
+- **[Data Product Monetization MasterClass](https://www.udemy.com/course/data-product-monetization-masterclass/?referralCode=53941B985FBFA582CBC7)**
   Learn how to turn ODPS-based products into revenue-generating offerings, including pricing, AI monetization, and payment strategy.
 
-- **[Data Product MasterClass](https://datamaestroacademy.com/courses/data-product-fundamentals)**
+- **[Data Product MasterClass](https://www.udemy.com/course/data-product-mindset/?referralCode=548AA9F02E100D61D284)**
   Build a practical data product mindset with blueprints, examples, and execution guidance.
 
-- **[Minimum Lovable Governance](https://datamaestroacademy.com/courses/data-product-governance)**
+- **[Minimum Lovable Governance](https://www.udemy.com/course/data-products-minimum-lovable-governance-masterclass/?referralCode=3A5188B67577CFBC0B18)**
   Learn governance patterns that fit lean teams and support scalable data product delivery.
 
 > These courses are designed to complement the documentation and examples in this repository.
