@@ -1,31 +1,90 @@
-![header image](resources/header.png)
+<p align="center">
+  <img src="resources/header.png" alt="ODPS Knowledge Base" width="100%">
+</p>
 
-# ODPS Knowledge Base
+<h1 align="center">ODPS Knowledge Base</h1>
 
-A practical reference for the Open Data Product Specification (ODPS). This repo combines learning resources, sample YAML, and FAQ guidance so teams can define data products in a consistent, interoperable way.
+<p align="center">
+  A practical reference for the <strong>Open Data Product Specification (ODPS)</strong>, combining learning resources, sample YAML, reusable patterns, and FAQ guidance for interoperable data products.
+</p>
 
-## Quick navigation
+<p align="center">
+  <a href="https://opendataproducts.org/"><img alt="ODPS specification" src="https://img.shields.io/badge/ODPS-Specification-0B5FFF"></a>
+  <a href="#faq-with-examples"><img alt="FAQ examples" src="https://img.shields.io/badge/FAQ-Examples-198754"></a>
+  <a href="#data-product-toolkit-and-python-library"><img alt="Resources" src="https://img.shields.io/badge/Resources-Toolkit%20%26%20Library-6F42C1"></a>
+  <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-FD7E14"></a>
+</p>
 
-- [What is this repo?](#what-is-in-this-repo)
-- [Browse the FAQ](#faq-with-examples)
-- [Download the toolkit and Python library](#data-product-toolkit-and-python-library)
-- [See the courses](#udemy-masterclasses)
-- [Use the YAML builder](#yaml-builder-for-open-data-products)
-- [Raise an issue](https://github.com/Open-Data-Product-Initiative/odps-examples/issues)
+<br>
+
+<table>
+  <tr>
+    <td><strong>Browse the FAQ</strong></td>
+    <td>Learn ODPS concepts through practical answers and implementation examples.</td>
+    <td><a href="#faq-with-examples">Open FAQ</a></td>
+  </tr>
+  <tr>
+    <td><strong>Use example YAML</strong></td>
+    <td>Copy reusable patterns for contracts, pricing, access, SLA, data quality, and references.</td>
+    <td><a href="faq/yaml">View YAML</a></td>
+  </tr>
+  <tr>
+    <td><strong>Download resources</strong></td>
+    <td>Access the Data Product Toolkit, governance whitepaper, and ODPS Python library.</td>
+    <td><a href="#data-product-toolkit-and-python-library">Get resources</a></td>
+  </tr>
+  <tr>
+    <td><strong>Build with AI assistance</strong></td>
+    <td>Use the YAML Builder GPT to author and validate ODPS 4.0 YAML faster.</td>
+    <td><a href="#yaml-builder-for-open-data-products">Open builder</a></td>
+  </tr>
+</table>
 
 ## What is in this repo?
 
-- `faq/` — curated question-and-answer pages with real ODPS examples
-- `faq/yaml/` — companion YAML source examples for each FAQ topic
-- `ODPS4/` — sample Open Data Product YAMLs for schema and product patterns
-- `resources/` — toolkit files, visuals, and supporting downloads
+<table>
+  <tr>
+    <th>Directory</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><code>faq/</code></td>
+    <td>Curated question-and-answer pages with real ODPS examples.</td>
+  </tr>
+  <tr>
+    <td><code>faq/yaml/</code></td>
+    <td>Companion YAML source examples for each FAQ topic.</td>
+  </tr>
+  <tr>
+    <td><code>ODPS4/</code></td>
+    <td>Sample Open Data Product YAMLs for schema and product patterns.</td>
+  </tr>
+  <tr>
+    <td><code>resources/</code></td>
+    <td>Toolkit files, visuals, and supporting downloads.</td>
+  </tr>
+</table>
 
 ## Why use it?
 
-- Learn ODPS through practical examples, not just specification text
-- Copy and reuse proven YAML patterns for contracts, pricing, access, SLA, and DQ
-- Find reusable components and reference patterns for production-ready metadata
-- Access training, templates, and tools that speed up ODPS adoption
+<table>
+  <tr>
+    <td><strong>Example-first learning</strong></td>
+    <td>Understand ODPS through applied examples rather than specification text alone.</td>
+  </tr>
+  <tr>
+    <td><strong>Reusable YAML patterns</strong></td>
+    <td>Adapt proven structures for contracts, pricing, access, SLA, and data quality.</td>
+  </tr>
+  <tr>
+    <td><strong>Production-ready references</strong></td>
+    <td>Find reusable components and metadata patterns for real data product work.</td>
+  </tr>
+  <tr>
+    <td><strong>Adoption support</strong></td>
+    <td>Use training, templates, and tools that help teams move faster with ODPS.</td>
+  </tr>
+</table>
 
 ---
 
@@ -91,9 +150,28 @@ This section helps you understand and apply the [ODPS specification](https://ope
 
 ## Data Product Toolkit and Python Library
 
-- **A free, open set of canvases for designing, measuring, and managing data products.** Includes frameworks such as Data Product Canvas 2.1, Value Measure Framework, and Blueprint Model. [Download the toolkit](./resources/Data_Product_Toolkit.pdf)
-- **A Minimum Lovable Governance whitepaper** for data product governance and operating model guidance. [Read the whitepaper](https://github.com/Open-Data-Product-Initiative/odps-knowledge-base/blob/main/resources/Minimum%20Lovable%20Governance%20for%20Data%20Products%20Whitepaper.pdf)
-- **A comprehensive, high-performance Python library** for creating, validating, and manipulating Open Data Product Specification (ODPS) v4.0 documents with full international standards compliance. [Get the Library](https://github.com/Accenture/odps-python)
+<table>
+  <tr>
+    <th>Resource</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><strong>Data Product Toolkit</strong></td>
+    <td>A free, open set of canvases for designing, measuring, and managing data products, including Data Product Canvas 2.1, Value Measure Framework, and Blueprint Model.</td>
+    <td><a href="./resources/Data_Product_Toolkit.pdf">Download</a></td>
+  </tr>
+  <tr>
+    <td><strong>Minimum Lovable Governance Whitepaper</strong></td>
+    <td>Guidance for data product governance, operating models, and lightweight adoption patterns.</td>
+    <td><a href="https://github.com/Open-Data-Product-Initiative/odps-knowledge-base/blob/main/resources/Minimum%20Lovable%20Governance%20for%20Data%20Products%20Whitepaper.pdf">Read</a></td>
+  </tr>
+  <tr>
+    <td><strong>ODPS Python Library</strong></td>
+    <td>A comprehensive, high-performance Python library for creating, validating, and manipulating ODPS v4.0 documents with international standards compliance.</td>
+    <td><a href="https://github.com/Accenture/odps-python">Get library</a></td>
+  </tr>
+</table>
 
 ---
 
