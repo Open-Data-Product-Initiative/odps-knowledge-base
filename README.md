@@ -159,6 +159,7 @@ Use these when you are cataloging a portfolio of data products, use cases, busin
 - [What is the difference between ODPC, ODPS, and ODPG?](faq/odpc-vs-odps.md)
 - [What does a simple ODPC catalog look like?](faq/odpc-catalog-example.md)
 - [How do I use ProductReference in ODPC?](faq/odpc-product-reference.md)
+- [What Python tools are available for ODPC?](faq/odpc-python-tools.md)
 
 <a id="odpv-vocabulary-and-shared-terms"></a>
 
@@ -174,6 +175,7 @@ Use these when you need controlled vocabulary terms for data product objects, va
 - [How does ODPV relate to ODPS, ODPC, and ODPG?](faq/odpv-standards-family.md)
 - [What are the main ODPV vocabulary groups?](faq/odpv-vocabulary-groups.md)
 - [How do I use ODPV relationship terms?](faq/odpv-relationship-terms.md)
+- [What Python tools are available for ODPV?](faq/odpv-python-tools.md)
 
 <a id="odpg-open-data-product-graphs-coming-soon"></a>
 
@@ -192,6 +194,35 @@ Use this section for future graph FAQs about connecting data products, catalogs,
 - [How to build AI-assisted Minimum Lovable Governance with Claude?](https://github.com/Data-Maestro-Academy/DIY-MLG)
 
 > Each FAQ answer is stored in `/faq`, and most include a matching YAML example in `faq/yaml`.
+
+---
+
+## Specification Tools
+
+Some OpenDataProducts.org specifications include Python utilities for validation, artifact generation, search, and AI-agent-friendly workflows.
+
+<table>
+  <tr>
+    <th>Standard</th>
+    <th>Tools</th>
+    <th>Use for</th>
+    <th>Source</th>
+  </tr>
+  <tr>
+    <td><strong>ODPC</strong></td>
+    <td><code>validate_catalog.py</code>, <code>explain_catalog.py</code>, <code>search_objects.py</code>, <code>generate_catalog_artifacts.py</code>, <code>check_agent_artifacts.py</code></td>
+    <td>Validate catalog files, summarize catalogs, search catalog object guidance, and keep generated catalog artifacts in sync.</td>
+    <td><a href="https://github.com/Open-Data-Product-Initiative/odpc-v1.0/tree/main/scripts">ODPC scripts</a></td>
+  </tr>
+  <tr>
+    <td><strong>ODPV</strong></td>
+    <td><code>validate_vocab.py</code>, <code>generate_vocab_artifacts.py</code>, <code>search_vocab.py</code>, <code>vocab_utils.py</code></td>
+    <td>Validate vocabulary files, regenerate derived vocabulary artifacts, and search controlled vocabulary terms.</td>
+    <td><a href="https://github.com/Open-Data-Product-Initiative/odpv-v1.0/tree/main/scripts">ODPV scripts</a></td>
+  </tr>
+</table>
+
+See the FAQ entries for [ODPC Python tools](faq/odpc-python-tools.md) and [ODPV Python tools](faq/odpv-python-tools.md) for command examples.
 
 ---
 
