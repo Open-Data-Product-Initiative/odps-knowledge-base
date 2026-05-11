@@ -20,7 +20,7 @@
 <table>
   <tr>
     <td><strong>Browse the FAQ</strong></td>
-    <td>Learn ODPS concepts through practical answers and implementation examples.</td>
+    <td>Learn ODPS and ODPC concepts through practical answers and implementation examples.</td>
     <td><a href="#faq-with-examples">Open FAQ</a></td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@
 
 ## FAQ with examples
 
-This section helps you understand and apply the [ODPS specification](https://opendataproducts.org/) through practical, modular examples. Each answer includes:
+This section helps you understand and apply the [ODPS specification](https://opendataproducts.org/) and related OpenDataProducts.org standards through practical, modular examples. Each answer includes:
 
 - explanation of the concept
 - plain YAML snippets
@@ -103,6 +103,13 @@ This section helps you understand and apply the [ODPS specification](https://ope
 - [What are the required and optional sections in ODPS?](faq/required-optional.md)
 - [How do I define metadata for my data product?](faq/define-metadata.md)
 - [How do I define related products and use cases?](faq/define-related.md)
+
+### 🗂️ ODPC Catalogs and Portfolio Management
+
+- [What is ODPC, and why should I use it?](faq/what-is-odpc.md)
+- [What is the difference between ODPC, ODPS, and ODPG?](faq/odpc-vs-odps.md)
+- [What does a simple ODPC catalog look like?](faq/odpc-catalog-example.md)
+- [How do I use ProductReference in ODPC?](faq/odpc-product-reference.md)
 
 ### 📄 Product Strategy and linking to Business Objectives
 

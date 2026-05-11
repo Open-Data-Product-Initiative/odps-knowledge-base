@@ -1,0 +1,128 @@
+schema: https://opendataproducts.org/odpc-v1.0/schema/odpc.yaml
+version: "1.0"
+
+catalog:
+  id: CAT-001
+  name:
+    en: Urban Mobility Data Product Catalog
+  description:
+    en: Catalog of data products, use cases, objectives, and signals related to urban mobility.
+
+  owner:
+    organization: Example Transport Authority
+    team: Business Analytics
+    role: Data Product Portfolio Manager
+
+  scope:
+    domains:
+      - smart-city
+      - mobility
+      - transport
+    geography: Abu Dhabi
+    audience:
+      - internal
+      - public
+
+  status: active
+
+  graph:
+    standard: ODPG
+    version: "1.0"
+    uri: https://example.org/graphs/urban-mobility.graph.yaml
+
+  productReferences:
+    - id: DP-001
+      productID: urbanpulse-events
+      productVersion: "1.0.0"
+      name:
+        en: UrbanPulse Events Data Product
+      description:
+        en: Event information for urban analytics and citizen services.
+      valueProposition:
+        en: Supports event-based mobility planning and citizen services.
+      visibility: public
+      status: production
+      type: dataset
+      domains:
+        - smart-city
+        - mobility
+      tags:
+        - events
+        - smart-city
+        - mobility
+      portfolioPriority: high
+      productModel:
+        standard: ODPS
+        version: "4.1"
+        format: yaml
+        uri: https://example.org/products/urbanpulse-events/odps.yaml
+
+  useCases:
+    - id: UC-001
+      name:
+        en: Event Demand Forecasting
+      description:
+        en: Forecast event-related demand to improve mobility planning and citizen services.
+      domains:
+        - smart-city
+        - mobility
+      stakeholders:
+        - Transport planners
+        - Event operations teams
+        - Citizen service teams
+      expectedOutcome:
+        en: Better coordination between event planning, transport operations, and public services.
+      priority: high
+
+  businessObjectives:
+    - id: BO-001
+      name:
+        en: Improve Urban Mobility Efficiency
+      description:
+        en: Reduce travel delays and improve city movement through better data-driven planning.
+      strategicAlignment:
+        - en: Smart City Vision 2030
+      expectedOutcomes:
+        - en: Shorter average travel times across key corridors.
+        - en: Improved public transport reliability during large events.
+      kpis:
+        - id: KPI-001
+          name:
+            en: Average Travel Time Reduction
+          description:
+            en: Measures reduction in average travel time across selected mobility corridors.
+          unit: percentage
+          baseline:
+            value: 0
+            date: 2025-10-31
+          target:
+            value: 10
+            date: 2026-12-31
+      status: active
+      priority: high
+
+  signals:
+    - id: SIG-001
+      name:
+        en: Increasing Event Demand
+      description:
+        en: Demand for event-related mobility and public service planning is increasing.
+      type: demand
+      source:
+        origin: internal
+        method: usage_analysis
+        system: Catalog analytics
+        channel: search_queries
+      observedAt: 2026-04-18T09:30:00Z
+      strength: high
+      confidence: medium
+      opportunity:
+        en: Improve event demand forecasting and mobility response through better event data products.
+      recommendedAction:
+        en: Review existing event, traffic, and public transport data products for gaps.
+      status: reviewing
+
+  tags:
+    - smart-city
+    - mobility
+    - events
