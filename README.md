@@ -9,12 +9,13 @@
 </p>
 
 <p align="center">
-  <a href="https://opendataproducts.org/"><img alt="ODPS specification" src="https://img.shields.io/badge/ODPS-Specification-0B5FFF"></a>
-  <a href="#odpc-catalogs-and-portfolio-management"><img alt="ODPC catalogs" src="https://img.shields.io/badge/ODPC-Catalogs-0A7F78"></a>
-  <a href="#odpv-vocabulary-and-shared-terms"><img alt="ODPV vocabulary" src="https://img.shields.io/badge/ODPV-Vocabulary-6F42C1"></a>
+  <a href="#odps-open-data-product-specification"><img alt="ODPS specification" src="https://img.shields.io/badge/ODPS-Specification-7C3AED"></a>
+  <a href="#odpc-catalogs-and-portfolio-management"><img alt="ODPC catalogs" src="https://img.shields.io/badge/ODPC-Catalogs-F97316"></a>
+  <a href="#odpv-vocabulary-and-shared-terms"><img alt="ODPV vocabulary" src="https://img.shields.io/badge/ODPV-Vocabulary-0EA5E9"></a>
+  <a href="#odpg-open-data-product-graphs-coming-soon"><img alt="ODPG graphs" src="https://img.shields.io/badge/ODPG-Graphs-22C55E"></a>
   <a href="#faq-with-examples"><img alt="FAQ examples" src="https://img.shields.io/badge/FAQ-Examples-198754"></a>
-  <a href="#data-product-toolkit-and-python-library"><img alt="Resources" src="https://img.shields.io/badge/Resources-Toolkit%20%26%20Library-FD7E14"></a>
-  <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-FD7E14"></a>
+  <a href="#data-product-toolkit-and-python-library"><img alt="Resources" src="https://img.shields.io/badge/Resources-Toolkit%20%26%20Library-64748B"></a>
+  <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-64748B"></a>
 </p>
 
 <br>
@@ -98,7 +99,13 @@ This section helps you understand and apply the OpenDataProducts.org standards f
 - plain YAML snippets
 - companion YAML examples in `faq/yaml`
 
-### 📘 ODPS: Open Data Product Specification
+<a id="odps-open-data-product-specification"></a>
+
+### 🟣 ODPS: Open Data Product Specification
+
+<p>
+  <img alt="ODPS color marker" src="https://img.shields.io/badge/ODPS-Specification-7C3AED">
+</p>
 
 Use these when you are defining one data product and its metadata, contract, pricing, access, quality, and validation rules.
 
@@ -138,7 +145,13 @@ Use these when you are defining one data product and its metadata, contract, pri
 - [How do I validate an ODPS YAML file?](faq/validation.md)
 - [Are there templates I can use to start faster?](faq/templates.md)
 
-### 🗂️ ODPC Catalogs and Portfolio Management
+<a id="odpc-catalogs-and-portfolio-management"></a>
+
+### 🟠 ODPC Catalogs and Portfolio Management
+
+<p>
+  <img alt="ODPC color marker" src="https://img.shields.io/badge/ODPC-Catalogs-F97316">
+</p>
 
 Use these when you are cataloging a portfolio of data products, use cases, business objectives, signals, and product references.
 
@@ -147,7 +160,13 @@ Use these when you are cataloging a portfolio of data products, use cases, busin
 - [What does a simple ODPC catalog look like?](faq/odpc-catalog-example.md)
 - [How do I use ProductReference in ODPC?](faq/odpc-product-reference.md)
 
-### 🧭 ODPV Vocabulary and Shared Terms
+<a id="odpv-vocabulary-and-shared-terms"></a>
+
+### 🔵 ODPV Vocabulary and Shared Terms
+
+<p>
+  <img alt="ODPV color marker" src="https://img.shields.io/badge/ODPV-Vocabulary-0EA5E9">
+</p>
 
 Use these when you need controlled vocabulary terms for data product objects, value concepts, governance concepts, and graph relationship names.
 
@@ -155,6 +174,16 @@ Use these when you need controlled vocabulary terms for data product objects, va
 - [How does ODPV relate to ODPS, ODPC, and ODPG?](faq/odpv-standards-family.md)
 - [What are the main ODPV vocabulary groups?](faq/odpv-vocabulary-groups.md)
 - [How do I use ODPV relationship terms?](faq/odpv-relationship-terms.md)
+
+<a id="odpg-open-data-product-graphs-coming-soon"></a>
+
+### 🟢 ODPG: Open Data Product Graphs Coming Soon
+
+<p>
+  <img alt="ODPG color marker" src="https://img.shields.io/badge/ODPG-Graphs-22C55E">
+</p>
+
+Use this section for future graph FAQs about connecting data products, catalogs, use cases, objectives, KPIs, signals, governance objects, providers, and consumers.
 
 ### 🤖 Cross-standard AI and Automation
 
