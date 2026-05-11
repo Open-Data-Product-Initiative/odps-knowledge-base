@@ -90,13 +90,17 @@
 
 ## FAQ with examples
 
-This section helps you understand and apply the [ODPS specification](https://opendataproducts.org/) and related OpenDataProducts.org standards through practical, modular examples. Each answer includes:
+This section helps you understand and apply the [ODPS specification](https://opendataproducts.org/) and related OpenDataProducts.org standards through practical, modular examples. The FAQs are grouped by specification so you can start with the standard you are using.
 
 - explanation of the concept
 - plain YAML snippets
-- full ODPS YAML examples in `faq/yaml`
+- companion YAML examples in `faq/yaml`
 
-### 📘 Core Concepts
+### 📘 ODPS: Open Data Product Specification
+
+Use these when you are defining one data product and its metadata, contract, pricing, access, quality, and validation rules.
+
+**Core concepts**
 
 - [What is ODPS, and why should I use it?](faq/what-is-odps.md)
 - [What does a complete ODPS-compliant product look like?](faq/full-example.md)
@@ -104,7 +108,37 @@ This section helps you understand and apply the [ODPS specification](https://ope
 - [How do I define metadata for my data product?](faq/define-metadata.md)
 - [How do I define related products and use cases?](faq/define-related.md)
 
+**Strategy and business value**
+
+- [How do I define a product strategy and what is it?](faq/productstrategy.md)
+- [How do I define product internal KPIs to measure product?](faq/productKPIs.md)
+
+**Contract and licensing**
+
+- [How do I define a contract for my data product?](faq/contract.md)
+- [How do I declare a license using ODPS?](faq/license.md)
+
+**Pricing, access, and service levels**
+
+- [How do I define pricing plans?](faq/pricing.md)
+- [Can I offer free and paid tiers in the same product?](faq/mixed-tiers.md)
+- [How do I assign SLAs to pricing plans?](faq/sla-linking.md)
+- [How do I define and reuse a payment gateway?](faq/payment-gateways.md)
+
+**Reuse, quality, and validation**
+
+- [How do I reuse SLA, DQ, and Access across products?](faq/reuse-components.md)
+- [Can I reference external YAML files?](faq/external-ref.md)
+- [What’s the difference between internal and external references?](faq/internal-vs-external-ref.md)
+- [How do I define data quality rules?](faq/data-quality.md)
+- [How do I specify access roles or visibility rules?](faq/access-control.md)
+- [How do I validate an ODPS spec in tools?](faq/validate.md)
+- [How do I validate an ODPS YAML file?](faq/validation.md)
+- [Are there templates I can use to start faster?](faq/templates.md)
+
 ### 🗂️ ODPC Catalogs and Portfolio Management
+
+Use these when you are cataloging a portfolio of data products, use cases, business objectives, signals, and product references.
 
 - [What is ODPC, and why should I use it?](faq/what-is-odpc.md)
 - [What is the difference between ODPC, ODPS, and ODPG?](faq/odpc-vs-odps.md)
@@ -113,50 +147,18 @@ This section helps you understand and apply the [ODPS specification](https://ope
 
 ### 🧭 ODPV Vocabulary and Shared Terms
 
+Use these when you need controlled vocabulary terms for data product objects, value concepts, governance concepts, and graph relationship names.
+
 - [What is ODPV, and why should I use it?](faq/what-is-odpv.md)
 - [How does ODPV relate to ODPS, ODPC, and ODPG?](faq/odpv-standards-family.md)
 - [What are the main ODPV vocabulary groups?](faq/odpv-vocabulary-groups.md)
 - [How do I use ODPV relationship terms?](faq/odpv-relationship-terms.md)
 
-### 📄 Product Strategy and linking to Business Objectives
-
-- [How do I define a product strategy and what is it?](faq/productstrategy.md)
-- [How do I define product internal KPIs to measure product?](faq/productKPIs.md)
-
-### 📄 Contract & Licensing
-
-- [How do I define a contract for my data product?](faq/contract.md)
-- [How do I declare a license using ODPS?](faq/license.md)
-
-### 💰 Pricing, Access & SLA
-
-- [How do I define pricing plans?](faq/pricing.md)
-- [Can I offer free and paid tiers in the same product?](faq/mixed-tiers.md)
-- [How do I assign SLAs to pricing plans?](faq/sla-linking.md)
-- [How do I define and reuse a payment gateway?](faq/payment-gateways.md)
-
-### 🔁 Referencing & Reuse
-
-- [How do I reuse SLA, DQ, and Access across products?](faq/reuse-components.md)
-- [Can I reference external YAML files?](faq/external-ref.md)
-- [What’s the difference between internal and external references?](faq/internal-vs-external-ref.md)
-
-### ✅ Data Quality & Access Control
-
-- [How do I define data quality rules?](faq/data-quality.md)
-- [How do I specify access roles or visibility rules?](faq/access-control.md)
-
-### 🤖 AI & Automation
+### 🤖 Cross-standard AI and Automation
 
 - [How does ODPS support AI agent consumption?](faq/ai-agent-consumption.md)
 - [How to use ODPS spec with LLMs.txt?](faq/odps-llms-txt.md)
 - [How to build AI-assisted Minimum Lovable Governance with Claude?](https://github.com/Data-Maestro-Academy/DIY-MLG)
-
-### 🛠️ Practical Use & Validation
-
-- [How do I validate an ODPS spec in tools?](faq/validate.md)
-- [How do I validate an ODPS YAML file?](faq/validation.md)
-- [Are there templates I can use to start faster?](faq/templates.md)
 
 > Each FAQ answer is stored in `/faq`, and most include a matching YAML example in `faq/yaml`.
 
