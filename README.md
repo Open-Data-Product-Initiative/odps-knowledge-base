@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="resources/header.png" alt="Open Data Product Standards Knowledge Base" width="100%">
+  <img src="resources/open-data-product-standards-hero.png" alt="Open Data Product Standards Knowledge Base" width="100%">
 </p>
 
 <h1 align="center">Open Data Product Standards Knowledge Base</h1>
