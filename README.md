@@ -20,7 +20,7 @@
 <table>
   <tr>
     <td><strong>Browse the FAQ</strong></td>
-    <td>Learn ODPS and ODPC concepts through practical answers and implementation examples.</td>
+    <td>Learn ODPS, ODPC, and ODPV concepts through practical answers and implementation examples.</td>
     <td><a href="#faq-with-examples">Open FAQ</a></td>
   </tr>
   <tr>
@@ -110,6 +110,13 @@ This section helps you understand and apply the [ODPS specification](https://ope
 - [What is the difference between ODPC, ODPS, and ODPG?](faq/odpc-vs-odps.md)
 - [What does a simple ODPC catalog look like?](faq/odpc-catalog-example.md)
 - [How do I use ProductReference in ODPC?](faq/odpc-product-reference.md)
+
+### 🧭 ODPV Vocabulary and Shared Terms
+
+- [What is ODPV, and why should I use it?](faq/what-is-odpv.md)
+- [How does ODPV relate to ODPS, ODPC, and ODPG?](faq/odpv-standards-family.md)
+- [What are the main ODPV vocabulary groups?](faq/odpv-vocabulary-groups.md)
+- [How do I use ODPV relationship terms?](faq/odpv-relationship-terms.md)
 
 ### 📄 Product Strategy and linking to Business Objectives
 

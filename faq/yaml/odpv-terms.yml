@@ -1,0 +1,105 @@
+vocabulary:
+  id: ODPV
+  name:
+    en: Open Data Product Vocabulary
+  version: "1.0"
+  uri: https://opendataproducts.org/odpv-v1.0/
+
+terms:
+  - id: DataProduct
+    uri: https://opendataproducts.org/odpv-v1.0/terms/DataProduct
+    group: core
+    type: object
+    status: stable
+    introducedIn: 1.0.0
+    preferredLabel:
+      en: Data Product
+    definition:
+      en: A managed data offering designed for reuse, with defined ownership, access, quality, usage terms, and value context.
+    alsoKnownAs:
+      en:
+        - data product
+        - data offering
+        - reusable data asset
+    relatedTerms:
+      - Dataset
+      - DataService
+      - Distribution
+    usedIn:
+      - ODPS
+      - ODPC
+      - ODPG
+
+  - id: BusinessObjective
+    uri: https://opendataproducts.org/odpv-v1.0/terms/BusinessObjective
+    group: value
+    type: object
+    status: stable
+    introducedIn: 1.0.0
+    preferredLabel:
+      en: Business Objective
+    definition:
+      en: A business goal or intended outcome that data products, use cases, or portfolio actions support.
+    alsoKnownAs:
+      en:
+        - objective
+        - business goal
+        - strategic goal
+        - target outcome
+    relatedTerms:
+      - Outcome
+      - KPI
+      - Impact
+      - UseCase
+    usedIn:
+      - ODPC
+      - ODPG
+
+  - id: DataQuality
+    uri: https://opendataproducts.org/odpv-v1.0/terms/DataQuality
+    group: governance
+    type: object
+    status: stable
+    introducedIn: 1.0.0
+    preferredLabel:
+      en: Data Quality
+    definition:
+      en: The expected, measured, or reported quality of a data product, dataset, distribution, or data service.
+    alsoKnownAs:
+      en:
+        - quality
+        - data quality score
+        - quality assessment
+        - quality metrics
+    relatedTerms:
+      - SLA
+      - DataContract
+      - Stewardship
+      - ComplianceRule
+    usedIn:
+      - ODPS
+      - ODPC
+      - ODPG
+
+  - id: supports
+    uri: https://opendataproducts.org/odpv-v1.0/terms/supports
+    group: relationships
+    type: relationship
+    status: stable
+    introducedIn: 1.0.0
+    preferredLabel:
+      en: supports
+    definition:
+      en: Indicates that one object helps enable, serve, or make another object possible, such as a data product supporting a use case.
+    alsoKnownAs:
+      en:
+        - enables
+        - serves
+        - helps
+        - provides support for
+    relatedTerms:
+      - contributesTo
+      - requires
+      - relatedTo
+    usedIn:
+      - ODPG
