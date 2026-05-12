@@ -28,20 +28,40 @@
   <a href="#udemy-masterclasses"><strong>See training</strong></a>
 </p>
 
-<p align="center">
-  <img alt="34 FAQ pages" src="https://img.shields.io/badge/34-FAQ%20Pages-198754">
-  <img alt="14 YAML examples" src="https://img.shields.io/badge/14-YAML%20Examples-0EA5E9">
-  <img alt="6 tools and downloads" src="https://img.shields.io/badge/6-Tools%20%26%20Downloads-64748B">
-  <img alt="4 training courses" src="https://img.shields.io/badge/4-Training%20Courses-F97316">
-</p>
-
 ## What is in this repo?
 
-- `faq/`: 34 practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.
-- `faq/yaml/`: 14 companion YAML examples for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.
-- `ODPS4/`: 2 sample Open Data Product YAML files for schema and product patterns.
-- `resources/`: 3 toolkit, visual, whitepaper, and supporting download files.
-- [4 Training Courses](#udemy-masterclasses): structured Udemy MasterClasses for ODPS, data product monetization, data product mindset, and minimum lovable governance.
+<table>
+  <tr>
+    <th>Count</th>
+    <th>Area</th>
+    <th>What you get</th>
+  </tr>
+  <tr>
+    <td align="center"><strong><span style="font-size: 1.6em;">34</span></strong></td>
+    <td><code>faq/</code></td>
+    <td>Practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong><span style="font-size: 1.6em;">14</span></strong></td>
+    <td><code>faq/yaml/</code></td>
+    <td>Companion YAML examples for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong><span style="font-size: 1.6em;">2</span></strong></td>
+    <td><code>ODPS4/</code></td>
+    <td>Sample Open Data Product YAML files for schema and product patterns.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong><span style="font-size: 1.6em;">3</span></strong></td>
+    <td><code>resources/</code></td>
+    <td>Toolkit, visual, whitepaper, and supporting download files.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong><span style="font-size: 1.6em;">4</span></strong></td>
+    <td><a href="#udemy-masterclasses">Training Courses</a></td>
+    <td>Structured Udemy MasterClasses for ODPS, data product monetization, data product mindset, and minimum lovable governance.</td>
+  </tr>
+</table>
 
 ## Why use it?
 
