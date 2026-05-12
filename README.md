@@ -18,80 +18,32 @@
   <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-64748B"></a>
 </p>
 
-<br>
-
-<table>
-  <tr>
-    <td><strong>Browse the FAQ</strong></td>
-    <td>Learn the standards family through practical answers and implementation examples.</td>
-    <td><a href="#faq-with-examples">Open FAQ</a></td>
-  </tr>
-  <tr>
-    <td><strong>Use example YAML</strong></td>
-    <td>Copy reusable patterns for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.</td>
-    <td><a href="faq/yaml">View YAML</a></td>
-  </tr>
-  <tr>
-    <td><strong>Download resources</strong></td>
-    <td>Access the Data Product Toolkit, governance whitepaper, and ODPS Python library.</td>
-    <td><a href="#data-product-toolkit-and-python-library">Get resources</a></td>
-  </tr>
-  <tr>
-    <td><strong>Build with AI assistance</strong></td>
-    <td>Use the YAML Builder GPT and FAQ examples to author and review machine-readable data product metadata faster.</td>
-    <td><a href="#yaml-builder-for-open-data-products">Open builder</a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="#faq-with-examples"><strong>Browse FAQ</strong></a>
+  ·
+  <a href="faq/yaml"><strong>View YAML examples</strong></a>
+  ·
+  <a href="#specification-tools"><strong>Use specification tools</strong></a>
+  ·
+  <a href="#data-product-toolkit-and-python-library"><strong>Get resources</strong></a>
+  ·
+  <a href="#udemy-masterclasses"><strong>See training</strong></a>
+</p>
 
 ## What is in this repo?
 
-<table>
-  <tr>
-    <th>Area</th>
-    <th>Purpose</th>
-  </tr>
-  <tr>
-    <td><code>faq/</code></td>
-    <td>Curated question-and-answer pages for Open Data Product standards.</td>
-  </tr>
-  <tr>
-    <td><code>faq/yaml/</code></td>
-    <td>Companion YAML source examples for each FAQ topic.</td>
-  </tr>
-  <tr>
-    <td><code>ODPS4/</code></td>
-    <td>Sample Open Data Product YAMLs for schema and product patterns.</td>
-  </tr>
-  <tr>
-    <td><code>resources/</code></td>
-    <td>Toolkit files, visuals, and supporting downloads.</td>
-  </tr>
-  <tr>
-    <td><a href="#udemy-masterclasses">Udemy MasterClasses</a></td>
-    <td>Structured training for ODPS, data product monetization, data product mindset, and minimum lovable governance.</td>
-  </tr>
-</table>
+- `faq/`: practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.
+- `faq/yaml/`: companion YAML examples for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.
+- `ODPS4/`: sample Open Data Product YAMLs for schema and product patterns.
+- `resources/`: toolkit files, visuals, whitepapers, and supporting downloads.
+- [Udemy MasterClasses](#udemy-masterclasses): structured training for ODPS, data product monetization, data product mindset, and minimum lovable governance.
 
 ## Why use it?
 
-<table>
-  <tr>
-    <td><strong>Example-first learning</strong></td>
-    <td>Understand Open Data Product standards through applied examples rather than specification text alone.</td>
-  </tr>
-  <tr>
-    <td><strong>Reusable YAML patterns</strong></td>
-    <td>Adapt proven structures for contracts, pricing, access, SLA, and data quality.</td>
-  </tr>
-  <tr>
-    <td><strong>Production-ready references</strong></td>
-    <td>Find reusable components and metadata patterns for real data product work.</td>
-  </tr>
-  <tr>
-    <td><strong>Adoption support</strong></td>
-    <td>Use training, templates, and tools that help teams move faster with the standards family.</td>
-  </tr>
-</table>
+- Learn through applied examples rather than specification text alone.
+- Reuse proven YAML patterns across product specs, catalogs, vocabulary, and governance.
+- Find production-ready references for real data product work.
+- Combine FAQs, templates, Python tools, training, and AI assistance in one place.
 
 ---
 
