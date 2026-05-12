@@ -151,7 +151,9 @@ Use this section for future graph FAQs about connecting data products, catalogs,
 
 ---
 
-## Tools and Resources
+<a id="tools-and-resources"></a>
+
+## 5 Tools and Resources
 
 Use these when you want to move from reading the standards to validating files, generating artifacts, designing products, or implementing with Python.
 
