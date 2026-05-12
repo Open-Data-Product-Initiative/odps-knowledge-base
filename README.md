@@ -30,10 +30,10 @@
 
 ## What is in this repo?
 
-- `faq/`: practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.
-- `faq/yaml/`: companion YAML examples for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.
-- `ODPS4/`: sample Open Data Product YAMLs for schema and product patterns.
-- `resources/`: toolkit files, visuals, whitepapers, and supporting downloads.
+- `faq/`: 34 practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.
+- `faq/yaml/`: 14 companion YAML examples for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.
+- `ODPS4/`: 2 sample Open Data Product YAML files for schema and product patterns.
+- `resources/`: 3 toolkit, visual, whitepaper, and supporting download files.
 - [4 Training Courses](#udemy-masterclasses): structured Udemy MasterClasses for ODPS, data product monetization, data product mindset, and minimum lovable governance.
 
 ## Why use it?
