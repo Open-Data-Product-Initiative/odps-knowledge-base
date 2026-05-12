@@ -28,6 +28,13 @@
   <a href="#udemy-masterclasses"><strong>See training</strong></a>
 </p>
 
+<p align="center">
+  <img alt="34 FAQ pages" src="https://img.shields.io/badge/34-FAQ%20Pages-198754">
+  <img alt="14 YAML examples" src="https://img.shields.io/badge/14-YAML%20Examples-0EA5E9">
+  <img alt="6 tools and downloads" src="https://img.shields.io/badge/6-Tools%20%26%20Downloads-64748B">
+  <img alt="4 training courses" src="https://img.shields.io/badge/4-Training%20Courses-F97316">
+</p>
+
 ## What is in this repo?
 
 - `faq/`: 34 practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.
