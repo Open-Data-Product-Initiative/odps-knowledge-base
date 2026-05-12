@@ -34,14 +34,14 @@
   <tr>
     <td align="center" width="20%"><h1>34</h1><strong>FAQs</strong></td>
     <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
-    <td align="center" width="20%"><h1>2</h1><strong>Samples</strong></td>
+    <td align="center" width="20%"><h1>11</h1><strong>Scripts</strong></td>
     <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
     <td align="center" width="20%"><h1>4</h1><strong>Courses</strong></td>
   </tr>
   <tr>
     <td align="center"><code>faq/</code><br>Practical guidance for ODPS, ODPC, ODPV, and future ODPG.</td>
     <td align="center"><code>faq/yaml/</code><br>Reusable YAML for specs, catalogs, vocabulary, contracts, pricing, access, SLA, and DQ.</td>
-    <td align="center"><code>ODPS4/</code><br>Open Data Product YAML files for schema and product patterns.</td>
+    <td align="center"><a href="#tools-and-resources">Python tools</a><br>Validation, generation, search, and agent artifact utilities for ODPC and ODPV.</td>
     <td align="center"><code>resources/</code><br>Toolkit, visual, whitepaper, and supporting downloads.</td>
     <td align="center"><a href="#udemy-masterclasses">Training</a><br>Udemy MasterClasses for ODPS, monetization, product mindset, and governance.</td>
   </tr>
