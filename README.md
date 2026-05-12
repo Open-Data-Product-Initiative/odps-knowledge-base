@@ -47,7 +47,7 @@
 
 <table>
   <tr>
-    <th>Directory</th>
+    <th>Area</th>
     <th>Purpose</th>
   </tr>
   <tr>
@@ -65,6 +65,10 @@
   <tr>
     <td><code>resources/</code></td>
     <td>Toolkit files, visuals, and supporting downloads.</td>
+  </tr>
+  <tr>
+    <td><a href="#udemy-masterclasses">Udemy MasterClasses</a></td>
+    <td>Structured training for ODPS, data product monetization, data product mindset, and minimum lovable governance.</td>
   </tr>
 </table>
 
