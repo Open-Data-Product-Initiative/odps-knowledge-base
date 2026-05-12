@@ -32,31 +32,18 @@
 
 <table>
   <tr>
-    <td align="center" width="20%">
-      <div style="height:52px;"><h2>34</h2></div>
-      <strong><code>faq/</code></strong><br>
-      Practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.
-    </td>
-    <td align="center" width="20%">
-      <div style="height:52px;"><h2>14</h2></div>
-      <strong><code>faq/yaml/</code></strong><br>
-      Companion YAML examples for specs, catalogs, vocabulary, contracts, pricing, access, SLA, and DQ.
-    </td>
-    <td align="center" width="20%">
-      <div style="height:52px;"><h2>2</h2></div>
-      <strong><code>ODPS4/</code></strong><br>
-      Sample Open Data Product YAML files for schema and product patterns.
-    </td>
-    <td align="center" width="20%">
-      <div style="height:52px;"><h2>3</h2></div>
-      <strong><code>resources/</code></strong><br>
-      Toolkit, visual, whitepaper, and supporting download files.
-    </td>
-    <td align="center" width="20%">
-      <div style="height:52px;"><h2>4</h2></div>
-      <strong><a href="#udemy-masterclasses">Training Courses</a></strong><br>
-      Udemy MasterClasses for ODPS, monetization, product mindset, and governance.
-    </td>
+    <td align="center" width="20%"><h2>34</h2></td>
+    <td align="center" width="20%"><h2>14</h2></td>
+    <td align="center" width="20%"><h2>2</h2></td>
+    <td align="center" width="20%"><h2>3</h2></td>
+    <td align="center" width="20%"><h2>4</h2></td>
+  </tr>
+  <tr>
+    <td align="center"><strong><code>faq/</code></strong><br>Practical Q&A pages for ODPS, ODPC, ODPV, and future ODPG guidance.</td>
+    <td align="center"><strong><code>faq/yaml/</code></strong><br>Companion YAML examples for specs, catalogs, vocabulary, contracts, pricing, access, SLA, and DQ.</td>
+    <td align="center"><strong><code>ODPS4/</code></strong><br>Sample Open Data Product YAML files for schema and product patterns.</td>
+    <td align="center"><strong><code>resources/</code></strong><br>Toolkit, visual, whitepaper, and supporting download files.</td>
+    <td align="center"><strong><a href="#udemy-masterclasses">Training Courses</a></strong><br>Udemy MasterClasses for ODPS, monetization, product mindset, and governance.</td>
   </tr>
 </table>
 
