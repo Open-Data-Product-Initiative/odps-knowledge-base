@@ -34,7 +34,7 @@
 - `faq/yaml/`: companion YAML examples for product specs, catalogs, vocabulary terms, contracts, pricing, access, SLA, data quality, and references.
 - `ODPS4/`: sample Open Data Product YAMLs for schema and product patterns.
 - `resources/`: toolkit files, visuals, whitepapers, and supporting downloads.
-- [Udemy MasterClasses](#udemy-masterclasses): structured training for ODPS, data product monetization, data product mindset, and minimum lovable governance.
+- [4 Training Courses](#udemy-masterclasses): structured Udemy MasterClasses for ODPS, data product monetization, data product mindset, and minimum lovable governance.
 
 ## Why use it?
 
@@ -56,10 +56,6 @@ This section helps you understand and apply the OpenDataProducts.org standards f
 <a id="odps-open-data-product-specification"></a>
 
 ### 🟣 ODPS: Open Data Product Specification
-
-<p>
-  <img alt="ODPS color marker" src="https://img.shields.io/badge/ODPS-Specification-7C3AED">
-</p>
 
 Use these when you are defining one data product and its metadata, contract, pricing, access, quality, and validation rules.
 
@@ -103,10 +99,6 @@ Use these when you are defining one data product and its metadata, contract, pri
 
 ### 🟠 ODPC Catalogs and Portfolio Management
 
-<p>
-  <img alt="ODPC color marker" src="https://img.shields.io/badge/ODPC-Catalogs-F97316">
-</p>
-
 Use these when you are cataloging a portfolio of data products, use cases, business objectives, signals, and product references.
 
 - [What is ODPC, and why should I use it?](faq/what-is-odpc.md)
@@ -119,10 +111,6 @@ Use these when you are cataloging a portfolio of data products, use cases, busin
 
 ### 🔵 ODPV Vocabulary and Shared Terms
 
-<p>
-  <img alt="ODPV color marker" src="https://img.shields.io/badge/ODPV-Vocabulary-0EA5E9">
-</p>
-
 Use these when you need controlled vocabulary terms for data product objects, value concepts, governance concepts, and graph relationship names.
 
 - [What is ODPV, and why should I use it?](faq/what-is-odpv.md)
@@ -133,13 +121,9 @@ Use these when you need controlled vocabulary terms for data product objects, va
 
 <a id="odpg-open-data-product-graphs-coming-soon"></a>
 
-### 🟢 ODPG: Open Data Product Graphs Coming Soon
+### 🟢 ODPG: Open Data Product Graphs
 
-<p>
-  <img alt="ODPG color marker" src="https://img.shields.io/badge/ODPG-Graphs-22C55E">
-</p>
-
-Use this section for future graph FAQs about connecting data products, catalogs, use cases, objectives, KPIs, signals, governance objects, providers, and consumers.
+FAQ entries will be added here next for connecting data products, catalogs, use cases, objectives, KPIs, signals, governance objects, providers, and consumers.
 
 ### 🤖 Cross-standard AI and Automation
 
@@ -153,7 +137,7 @@ Use this section for future graph FAQs about connecting data products, catalogs,
 
 <a id="tools-and-resources"></a>
 
-## 5 Tools and Resources
+## 6 Tools, Libraries, and Downloads
 
 Use these when you want to move from reading the standards to validating files, generating artifacts, designing products, or implementing with Python.
 
@@ -161,6 +145,7 @@ Use these when you want to move from reading the standards to validating files, 
 
 - **ODPC Python tools**: validate catalog files, summarize catalogs, search catalog object guidance, and keep generated catalog artifacts in sync. See [ODPC scripts](https://github.com/Open-Data-Product-Initiative/odpc-v1.0/tree/main/scripts) and [ODPC Python tools FAQ](faq/odpc-python-tools.md).
 - **ODPV Python tools**: validate vocabulary files, regenerate derived vocabulary artifacts, and search controlled vocabulary terms. See [ODPV scripts](https://github.com/Open-Data-Product-Initiative/odpv-v1.0/tree/main/scripts) and [ODPV Python tools FAQ](faq/odpv-python-tools.md).
+- **YAML Builder for Open Data Products**: AI-assisted authoring and validation for ODPS 4.0 YAML, with schema-aware guidance for contracts, access, pricing, SLA, DQ, `$ref`, and modular YAML structures. [Open ODPS GPT in OpenAI](https://chatgpt.com/g/g-687a26b92c20819182e92a8641fbd02f-yaml-builder-for-open-data-products).
 
 **Downloads and libraries**
 
@@ -170,9 +155,11 @@ Use these when you want to move from reading the standards to validating files, 
 
 ---
 
-## Udemy MasterClasses
+<a id="udemy-masterclasses"></a>
 
-Apply ODPS in real-world business scenarios with structured training on monetization, governance, AI readiness, and product strategy.
+## 4 Training Courses
+
+Apply Open Data Product standards and data product practices with structured Udemy MasterClasses on ODPS, monetization, governance, AI readiness, and product strategy.
 
 - **[Master the Leading Data Product Specification with GPT tool](https://www.udemy.com/course/master-the-open-data-product-specification-with-gpt-tool/?referralCode=7602F38C9E58976291A3)**
   A focused introduction to ODPS for architects, business managers, and product owners.
@@ -187,21 +174,6 @@ Apply ODPS in real-world business scenarios with structured training on monetiza
   Learn governance patterns that fit lean teams and support scalable data product delivery.
 
 > These courses are designed to complement the documentation and examples in this repository.
-
----
-
-## YAML Builder for Open Data Products
-
-An AI-assisted tool for authoring and validating ODPS 4.0 YAML. It helps generate schema-compliant output, but should be used with manual review.
-
-- ODPS-compliant YAML generation
-- Schema-aware guidance for contracts, access, pricing, SLA, and DQ
-- Support for `$ref` and modular YAML structures
-- Example-first output, ready for copy/paste
-
-[Open ODPS GPT in OpenAI](https://chatgpt.com/g/g-687a26b92c20819182e92a8641fbd02f-yaml-builder-for-open-data-products)
-
----
 
 ## Need help?
 
