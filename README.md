@@ -14,7 +14,7 @@
   <a href="#odpv-vocabulary-and-shared-terms"><img alt="ODPV vocabulary" src="https://img.shields.io/badge/ODPV-Vocabulary-0EA5E9"></a>
   <a href="#odpg-open-data-product-graphs-coming-soon"><img alt="ODPG graphs" src="https://img.shields.io/badge/ODPG-Graphs-22C55E"></a>
   <a href="#faq-with-examples"><img alt="FAQ examples" src="https://img.shields.io/badge/FAQ-Examples-198754"></a>
-  <a href="#data-product-toolkit-and-python-library"><img alt="Resources" src="https://img.shields.io/badge/Resources-Toolkit%20%26%20Library-64748B"></a>
+  <a href="#tools-and-resources"><img alt="Tools and resources" src="https://img.shields.io/badge/Tools%20%26%20Resources-Python%20%26%20Toolkit-64748B"></a>
   <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-64748B"></a>
 </p>
 
@@ -23,9 +23,7 @@
   ·
   <a href="faq/yaml"><strong>View YAML examples</strong></a>
   ·
-  <a href="#specification-tools"><strong>Use specification tools</strong></a>
-  ·
-  <a href="#data-product-toolkit-and-python-library"><strong>Get resources</strong></a>
+  <a href="#tools-and-resources"><strong>Use tools and resources</strong></a>
   ·
   <a href="#udemy-masterclasses"><strong>See training</strong></a>
 </p>
@@ -153,59 +151,20 @@ Use this section for future graph FAQs about connecting data products, catalogs,
 
 ---
 
-## Specification Tools
+## Tools and Resources
 
-Some OpenDataProducts.org specifications include Python utilities for validation, artifact generation, search, and AI-agent-friendly workflows.
+Use these when you want to move from reading the standards to validating files, generating artifacts, designing products, or implementing with Python.
 
-<table>
-  <tr>
-    <th>Standard</th>
-    <th>Tools</th>
-    <th>Use for</th>
-    <th>Source</th>
-  </tr>
-  <tr>
-    <td><strong>ODPC</strong></td>
-    <td><code>validate_catalog.py</code>, <code>explain_catalog.py</code>, <code>search_objects.py</code>, <code>generate_catalog_artifacts.py</code>, <code>check_agent_artifacts.py</code></td>
-    <td>Validate catalog files, summarize catalogs, search catalog object guidance, and keep generated catalog artifacts in sync.</td>
-    <td><a href="https://github.com/Open-Data-Product-Initiative/odpc-v1.0/tree/main/scripts">ODPC scripts</a></td>
-  </tr>
-  <tr>
-    <td><strong>ODPV</strong></td>
-    <td><code>validate_vocab.py</code>, <code>generate_vocab_artifacts.py</code>, <code>search_vocab.py</code>, <code>vocab_utils.py</code></td>
-    <td>Validate vocabulary files, regenerate derived vocabulary artifacts, and search controlled vocabulary terms.</td>
-    <td><a href="https://github.com/Open-Data-Product-Initiative/odpv-v1.0/tree/main/scripts">ODPV scripts</a></td>
-  </tr>
-</table>
+**Specification tools**
 
-See the FAQ entries for [ODPC Python tools](faq/odpc-python-tools.md) and [ODPV Python tools](faq/odpv-python-tools.md) for command examples.
+- **ODPC Python tools**: validate catalog files, summarize catalogs, search catalog object guidance, and keep generated catalog artifacts in sync. See [ODPC scripts](https://github.com/Open-Data-Product-Initiative/odpc-v1.0/tree/main/scripts) and [ODPC Python tools FAQ](faq/odpc-python-tools.md).
+- **ODPV Python tools**: validate vocabulary files, regenerate derived vocabulary artifacts, and search controlled vocabulary terms. See [ODPV scripts](https://github.com/Open-Data-Product-Initiative/odpv-v1.0/tree/main/scripts) and [ODPV Python tools FAQ](faq/odpv-python-tools.md).
 
----
+**Downloads and libraries**
 
-## Data Product Toolkit and Python Library
-
-<table>
-  <tr>
-    <th>Resource</th>
-    <th>Description</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td><strong>Data Product Toolkit</strong></td>
-    <td>A free, open set of canvases for designing, measuring, and managing data products, including Data Product Canvas 2.1, Value Measure Framework, and Blueprint Model.</td>
-    <td><a href="./resources/Data_Product_Toolkit.pdf">Download</a></td>
-  </tr>
-  <tr>
-    <td><strong>Minimum Lovable Governance Whitepaper</strong></td>
-    <td>Guidance for data product governance, operating models, and lightweight adoption patterns.</td>
-    <td><a href="https://github.com/Open-Data-Product-Initiative/odps-knowledge-base/blob/main/resources/Minimum%20Lovable%20Governance%20for%20Data%20Products%20Whitepaper.pdf">Read</a></td>
-  </tr>
-  <tr>
-    <td><strong>ODPS Python Library</strong></td>
-    <td>A comprehensive, high-performance Python library for creating, validating, and manipulating ODPS v4.0 documents with international standards compliance.</td>
-    <td><a href="https://github.com/Accenture/odps-python">Get library</a></td>
-  </tr>
-</table>
+- **Data Product Toolkit**: free canvases for designing, measuring, and managing data products, including Data Product Canvas 2.1, Value Measure Framework, and Blueprint Model. [Download the toolkit](./resources/Data_Product_Toolkit.pdf).
+- **Minimum Lovable Governance Whitepaper**: governance and operating model guidance for data product teams. [Read the whitepaper](https://github.com/Open-Data-Product-Initiative/odps-knowledge-base/blob/main/resources/Minimum%20Lovable%20Governance%20for%20Data%20Products%20Whitepaper.pdf).
+- **ODPS Python Library**: a Python library for creating, validating, and manipulating ODPS v4.0 documents. [Get the library](https://github.com/Accenture/odps-python).
 
 ---
 
