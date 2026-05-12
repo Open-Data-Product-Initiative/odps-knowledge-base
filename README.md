@@ -32,11 +32,11 @@
 
 <table>
   <tr>
-    <td align="center" width="20%"><h2>34</h2><strong>FAQs</strong></td>
-    <td align="center" width="20%"><h2>14</h2><strong>Examples</strong></td>
-    <td align="center" width="20%"><h2>2</h2><strong>Samples</strong></td>
-    <td align="center" width="20%"><h2>3</h2><strong>Resources</strong></td>
-    <td align="center" width="20%"><h2>4</h2><strong>Courses</strong></td>
+    <td align="center" width="20%"><h1>34</h1><strong>FAQs</strong></td>
+    <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
+    <td align="center" width="20%"><h1>2</h1><strong>Samples</strong></td>
+    <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
+    <td align="center" width="20%"><h1>4</h1><strong>Courses</strong></td>
   </tr>
   <tr>
     <td align="center"><code>faq/</code><br>Practical guidance for ODPS, ODPC, ODPV, and future ODPG.</td>
