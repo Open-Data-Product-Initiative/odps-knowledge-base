@@ -1,7 +1,7 @@
 # Guide 0: Set Up Python
 
 This guide is for learners who have never used Python before. It helps you
-install Python, understand `pip` and PyPI, create a project folder, install the
+install Python, understand `pip` and PyPI, open this SDK guide folder, install the
 Open Data Products SDK, and verify that the `open-data-products` command works.
 
 ## What You Are Installing
@@ -10,7 +10,7 @@ Open Data Products SDK, and verify that the `open-data-products` command works.
 - `pip`: Python's package installer.
 - PyPI: the Python Package Index, where published Python packages live.
 - `open-data-products`: the SDK package installed from PyPI.
-- A virtual environment: a local `.venv` folder that keeps this lesson's Python
+- A virtual environment: a local `.venv` folder that keeps this guide's Python
   packages separate from the rest of your computer.
 
 ## Windows
@@ -29,11 +29,10 @@ py --version
 py -m pip --version
 ```
 
-### 2. Create a lesson folder
+### 2. Open this guide folder
 
 ```powershell
-mkdir odp-course
-cd odp-course
+cd sdk\00-setup-python
 ```
 
 ### 3. Create and activate a virtual environment
@@ -82,11 +81,10 @@ python3 --version
 python3 -m pip --version
 ```
 
-### 2. Create a lesson folder
+### 2. Open this guide folder
 
 ```bash
-mkdir -p odp-course
-cd odp-course
+cd sdk/00-setup-python
 ```
 
 ### 3. Create and activate a virtual environment
@@ -142,11 +140,10 @@ python3 --version
 python3 -m pip --version
 ```
 
-### 2. Create a lesson folder
+### 2. Open this guide folder
 
 ```bash
-mkdir -p odp-course
-cd odp-course
+cd sdk/00-setup-python
 ```
 
 ### 3. Create and activate a virtual environment
@@ -171,7 +168,7 @@ open-data-products --help
 
 ## Install Optional Extras
 
-The normal course guides only require:
+The normal SDK guides only require:
 
 ```bash
 python -m pip install open-data-products
@@ -199,6 +196,6 @@ Now open [Guide 1: Validate, Explain, and Summarize an ODPS Product](../01-valid
 - Python runs the SDK.
 - `pip` installs Python packages from PyPI.
 - `open-data-products` is the package name on PyPI.
-- A virtual environment keeps course dependencies local to one folder.
+- A virtual environment keeps guide dependencies local to one folder.
 - The `open-data-products` command is ready when `open-data-products --help`
   prints the command help.
