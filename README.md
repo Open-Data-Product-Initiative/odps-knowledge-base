@@ -13,6 +13,7 @@
   <a href="#odpc-catalogs-and-portfolio-management"><img alt="ODPC catalogs" src="https://img.shields.io/badge/ODPC-Catalogs-F97316"></a>
   <a href="#odpv-vocabulary-and-shared-terms"><img alt="ODPV vocabulary" src="https://img.shields.io/badge/ODPV-Vocabulary-0EA5E9"></a>
   <a href="#odpg-open-data-product-graphs-coming-soon"><img alt="ODPG graphs" src="https://img.shields.io/badge/ODPG-Graphs-22C55E"></a>
+  <a href="#open-data-products-python-sdk"><img alt="Open Data Products Python SDK" src="https://img.shields.io/badge/SDK-Python-2563EB"></a>
   <a href="#faq-with-examples"><img alt="FAQ examples" src="https://img.shields.io/badge/FAQ-Examples-198754"></a>
   <a href="#tools-and-resources"><img alt="Tools and resources" src="https://img.shields.io/badge/Tools%20%26%20Resources-Python%20%26%20Toolkit-64748B"></a>
   <a href="https://github.com/Open-Data-Product-Initiative/odps-examples/issues"><img alt="Raise an issue" src="https://img.shields.io/badge/Support-Raise%20an%20Issue-64748B"></a>
@@ -22,6 +23,8 @@
   <a href="#faq-with-examples"><strong>Browse FAQ</strong></a>
   ·
   <a href="faq/yaml"><strong>View YAML examples</strong></a>
+  ·
+  <a href="#open-data-products-python-sdk"><strong>Use the SDK</strong></a>
   ·
   <a href="#tools-and-resources"><strong>Use tools and resources</strong></a>
   ·
@@ -34,14 +37,14 @@
   <tr>
     <td align="center" width="20%"><h1>34</h1><strong>FAQs</strong></td>
     <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
-    <td align="center" width="20%"><h1>11</h1><strong>Scripts</strong></td>
+    <td align="center" width="20%"><h1>1</h1><strong>SDK Hub</strong></td>
     <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
     <td align="center" width="20%"><h1>4</h1><strong>Courses</strong></td>
   </tr>
   <tr>
     <td align="center"><code>faq/</code><br>Practical guidance for ODPS, ODPC, ODPV, and future ODPG.</td>
     <td align="center"><code>faq/yaml/</code><br>Reusable YAML for specs, catalogs, vocabulary, contracts, pricing, access, SLA, and DQ.</td>
-    <td align="center"><a href="#tools-and-resources">Python tools</a><br>Validation, generation, search, and agent artifact utilities for ODPC and ODPV.</td>
+    <td align="center"><code>sdk/</code><br>Python SDK guidance for installing, validating, generating, and automating standards workflows.</td>
     <td align="center"><code>resources/</code><br>Toolkit, visual, whitepaper, and supporting downloads.</td>
     <td align="center"><a href="#udemy-masterclasses">Training</a><br>Udemy MasterClasses for ODPS, monetization, product mindset, and governance.</td>
   </tr>
@@ -51,8 +54,22 @@
 
 - Learn through applied examples rather than specification text alone.
 - Reuse proven YAML patterns across product specs, catalogs, vocabulary, and governance.
+- Install the Python SDK and automate standards workflows from local projects or CI.
 - Find production-ready references for real data product work.
-- Combine FAQs, templates, Python tools, training, and AI assistance in one place.
+- Combine FAQs, templates, SDK guidance, Python tools, training, and AI assistance in one place.
+
+---
+
+<a id="open-data-products-python-sdk"></a>
+
+## Open Data Products Python SDK
+
+Use the Open Data Products Python SDK when you want to work with the standards family in Python, including ODPS, ODPC, ODPV, and future ODPG workflows. The SDK is published on PyPI as [`open-data-products`](https://pypi.org/project/open-data-products/).
+
+- [Open the SDK guide section](sdk/README.md)
+- Install from PyPI with `python -m pip install open-data-products`
+- Start with `open-data-products --help`
+- Bring imported SDK guides into `sdk/` so this knowledge base remains the source of truth
 
 ---
 
@@ -148,12 +165,13 @@ FAQ entries will be added here next for connecting data products, catalogs, use 
 
 <a id="tools-and-resources"></a>
 
-## 6 Tools, Libraries, and Downloads
+## 7 Tools, Libraries, and Downloads
 
 Use these when you want to move from reading the standards to validating files, generating artifacts, designing products, or implementing with Python.
 
 **Specification tools**
 
+- **Open Data Products Python SDK**: installable SDK for working with the Open Data Product Standards family in Python. [Open the SDK guides](sdk/README.md) or [view the package on PyPI](https://pypi.org/project/open-data-products/).
 - **ODPC Python tools**: validate catalog files, summarize catalogs, search catalog object guidance, and keep generated catalog artifacts in sync. See [ODPC scripts](https://github.com/Open-Data-Product-Initiative/odpc-v1.0/tree/main/scripts) and [ODPC Python tools FAQ](faq/odpc-python-tools.md).
 - **ODPV Python tools**: validate vocabulary files, regenerate derived vocabulary artifacts, and search controlled vocabulary terms. See [ODPV scripts](https://github.com/Open-Data-Product-Initiative/odpv-v1.0/tree/main/scripts) and [ODPV Python tools FAQ](faq/odpv-python-tools.md).
 - **YAML Builder for Open Data Products**: AI-assisted authoring and validation for ODPS 4.0 YAML, with schema-aware guidance for contracts, access, pricing, SLA, DQ, `$ref`, and modular YAML structures. [Open ODPS GPT in OpenAI](https://chatgpt.com/g/g-687a26b92c20819182e92a8641fbd02f-yaml-builder-for-open-data-products).
