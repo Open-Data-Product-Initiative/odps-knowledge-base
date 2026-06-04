@@ -1,0 +1,3 @@
+Objective: reduce preventable churn by improving retention decision quality and
+intervention timing. The Customer Retention use case and Customer Analytics
+Product support this objective. Churn Risk Signal measures early warning risk.

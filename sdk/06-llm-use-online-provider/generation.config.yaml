@@ -1,0 +1,19 @@
+provider: openai
+model: gpt-4.1-mini
+input: source_docs/
+output: fragments/
+
+providers:
+  openai:
+    type: openai
+    model: gpt-4.1-mini
+    baseUrl: https://api.openai.com/v1
+    apiKeyEnv: OPENAI_API_KEY
+
+  claude:
+    type: anthropic
+    model: claude-sonnet-4-5
+    baseUrl: https://api.anthropic.com/v1
+    apiKeyEnv: ANTHROPIC_API_KEY
+    version: "2023-06-01"
+    maxTokens: 4096

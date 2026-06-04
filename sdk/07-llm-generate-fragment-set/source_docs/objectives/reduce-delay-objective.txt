@@ -1,0 +1,3 @@
+Business objective: reduce average departure delay minutes for short-haul
+flights during morning and evening peak periods. The objective is measured by
+delay minutes, number of recovered flights, and operational response time.

@@ -1,0 +1,15 @@
+<graphml>
+  <key id="nodeType" for="node" attr.name="type"/>
+  <key id="edgeType" for="edge" attr.name="type"/>
+  <graph edgedefault="directed">
+    <node id="airport-operations">
+      <data key="nodeType">DataProduct</data>
+    </node>
+    <node id="delay-risk-monitoring">
+      <data key="nodeType">UseCase</data>
+    </node>
+    <edge source="delay-risk-monitoring" target="airport-operations">
+      <data key="edgeType">uses</data>
+    </edge>
+  </graph>
+</graphml>

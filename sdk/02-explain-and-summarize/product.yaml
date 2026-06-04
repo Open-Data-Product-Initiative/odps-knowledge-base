@@ -1,0 +1,10 @@
+schema: https://opendataproducts.org/v4.0/schema/odps.json
+version: "4.0"
+product:
+  name: Airport Operations Performance
+  productID: airport-operations-performance
+  visibility: public
+  status: production
+  type: dataset
+  description: Operational data product for monitoring airport turnaround and departure performance.
+  valueProposition: Helps operations teams reduce delays and coordinate airport resources.

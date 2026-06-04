@@ -37,14 +37,14 @@
   <tr>
     <td align="center" width="20%"><h1>34</h1><strong>FAQs</strong></td>
     <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
-    <td align="center" width="20%"><h1>1</h1><strong>SDK Hub</strong></td>
+    <td align="center" width="20%"><h1>12</h1><strong>SDK Guides</strong></td>
     <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
     <td align="center" width="20%"><h1>4</h1><strong>Courses</strong></td>
   </tr>
   <tr>
     <td align="center"><code>faq/</code><br>Practical guidance for ODPS, ODPC, ODPV, and future ODPG.</td>
     <td align="center"><code>faq/yaml/</code><br>Reusable YAML for specs, catalogs, vocabulary, contracts, pricing, access, SLA, and DQ.</td>
-    <td align="center"><code>sdk/</code><br>Python SDK guidance for installing, validating, generating, and automating standards workflows.</td>
+    <td align="center"><code>sdk/</code><br>Python SDK guides for installing, validating, generating, and automating standards workflows.</td>
     <td align="center"><code>resources/</code><br>Toolkit, visual, whitepaper, and supporting downloads.</td>
     <td align="center"><a href="#udemy-masterclasses">Training</a><br>Udemy MasterClasses for ODPS, monetization, product mindset, and governance.</td>
   </tr>
@@ -69,7 +69,7 @@ Use the Open Data Products Python SDK when you want to work with the standards f
 - [Open the SDK guide section](sdk/README.md)
 - Install from PyPI with `python -m pip install open-data-products`
 - Start with `open-data-products --help`
-- Bring imported SDK guides into `sdk/` so this knowledge base remains the source of truth
+- Follow 12 self-contained SDK guide folders covering setup, validation, vocabulary helpers, ODPG conversion, local LLM configuration, Qwen setup, and LLM generation workflows
 
 ---
 

@@ -1,0 +1,41 @@
+schema: https://opendataproducts.org/odpg-v1.0/schema/odpg.yaml
+version: "1.0"
+kind: Graph
+graph:
+  metadata:
+    id: GRAPH-AVIATION-001
+    name:
+      en: Aviation Data Product Value Graph
+    description:
+      en: Graph describing how aviation data products, use cases, policies,
+          agents, opportunities, and business objectives are connected.
+    domain:
+      en: Aviation
+    purpose:
+      en: Support portfolio analysis, value mapping, governance review,
+          and AI-assisted reasoning.
+    status: draft
+    visibility: public
+  nodes:
+    - id: UC-AVIATION-001
+      type: UseCase
+      $ref: usecases/delay-risk-monitoring.yaml
+
+    - id: DP-AVIATION-001
+      type: DataProduct
+      $ref: products/airport-operations-performance.yaml
+
+    - id: OBJ-AVIATION-001
+      type: BusinessObjective
+      $ref: objectives/reduce-departure-delays.yaml
+
+  edges:
+    - from: UC-AVIATION-001
+      to: DP-AVIATION-001
+      type: uses
+      confidence: high
+
+    - from: UC-AVIATION-001
+      to: OBJ-AVIATION-001
+      type: supports
+      confidence: high

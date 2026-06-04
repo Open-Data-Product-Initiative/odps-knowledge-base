@@ -1,0 +1,8 @@
+Support operations queue note from April 18, 2026 at 10:00.
+
+The hourly queue monitor shows escalation pressure building: backlog is growing,
+first response time is slipping, customer sentiment is dropping, and priority
+accounts are waiting too long. Service operations teams use this signal inside
+the Support Operations Product and monitor it in the Support Escalation
+Management use case. The signal is an early warning for the Improve Support
+Resolution objective.

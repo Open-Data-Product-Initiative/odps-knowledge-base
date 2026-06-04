@@ -1,0 +1,5 @@
+Airport operations teams need an early signal when aircraft turnaround is at
+risk of exceeding the planned ground time. The signal should consider late
+inbound arrival, missing cleaning crew assignment, delayed baggage unloading,
+and gate conflict status. The signal is used by the operations control center
+to trigger recovery actions before departure delay becomes unavoidable.

@@ -1,0 +1,7 @@
+Daily retention briefing from April 18, 2026 at 09:30.
+
+The customer analytics event log shows a churn-risk pattern: product usage is
+down, support tickets are up, and renewal activity has slowed for several
+priority accounts. Retention teams use this daily signal inside the Customer
+Analytics Product and monitor it in the Customer Retention use case. The signal
+is an early warning for the Reduce Preventable Churn objective.

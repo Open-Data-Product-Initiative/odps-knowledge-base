@@ -1,0 +1,3 @@
+Signal: turnaround delay risk increases when inbound arrival is late, baggage
+unloading has not started, cleaning crew is not assigned, or the gate has a
+conflict with another aircraft movement.

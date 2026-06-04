@@ -4,7 +4,7 @@ The Open Data Products Python SDK is the Python package for working with the Ope
 
 Use this section when you want to install the SDK, validate specification files, automate standards workflows, or build applications that work with ODPS, ODPC, ODPV, and future ODPG material.
 
-## Start here
+## Start Here
 
 1. Set up Python and a virtual environment.
 2. Install the SDK from PyPI.
@@ -18,18 +18,37 @@ python -m pip install open-data-products
 open-data-products --help
 ```
 
-## Guide map
+Start with the setup guide if you have never worked with Python, `pip`, PyPI, or virtual environments before.
 
-The full SDK guide material will be imported into this repo. This page is the stable home for that material.
+## Guide Package
 
-- **Python setup**: install Python, create a virtual environment, and understand `pip`.
-- **SDK installation**: install and update `open-data-products` from PyPI.
-- **ODPS workflows**: validate and work with Open Data Product Specification files.
-- **ODPC workflows**: inspect and automate catalog and portfolio guidance.
-- **ODPV workflows**: use controlled vocabulary terms in SDK-based workflows.
-- **ODPG and generation workflows**: generate artifacts and prepare graph-oriented outputs as the standards family grows.
-- **CLI automation**: use SDK commands in repeatable local and CI workflows.
+Each guide is a self-contained folder. Open the folder, follow its `README.md`,
+and use any sample files stored beside it.
 
-## Related tools
+### Non-LLM Guides
+
+These guides do not require an LLM. They cover installation, validation,
+explanation, vocabulary lookup, and graph conversion.
+
+0. [Set up Python, pip, PyPI, and the SDK](00-setup-python/)
+1. [Validate, explain, and summarize an ODPS product](01-validate-product/)
+2. [Explain and summarize a product](02-explain-and-summarize/)
+3. [Use the ODPV vocabulary helpers](03-use-vocabulary-helpers/)
+4. [Convert GraphML to ODPG and open an explorer](04-convert-graph-to-odpg/)
+
+### LLM Generation Guides
+
+These guides use the SDK generation command. They require Ollama with Qwen 2.5
+or a configured online provider.
+
+5. [Generate one signal fragment with Ollama](05-llm-generate-one-signal/)
+6. [Generate one artifact with an online provider](06-llm-use-online-provider/)
+7. [Generate a full fragment set from source documents](07-llm-generate-fragment-set/)
+8. [Full cycle: source docs to catalog HTML and graph explorer](08-llm-full-cycle-catalog-and-graph/)
+9. [Build catalog and graph from the same fragments](09-build-catalog-and-graph-from-fragments/)
+10. [Set up a local LLM with Ollama and Qwen](10-set-up-local-llm-qwen/)
+11. [Configure LLMs with a local config file](11-configure-llms-with-local-config-file/)
+
+## Related Tools
 
 The Open Data Products Python SDK is separate from the ODPS Python Library. The SDK covers the broader Open Data Product Standards family through the `open-data-products` package, while the ODPS Python Library remains a separate ODPS v4.0-focused library.

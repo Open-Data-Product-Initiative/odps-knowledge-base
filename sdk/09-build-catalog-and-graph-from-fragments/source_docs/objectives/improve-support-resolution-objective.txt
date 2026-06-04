@@ -1,0 +1,4 @@
+Objective: improve support resolution by reducing escalation rate, backlog age,
+and first response delay. The Support Escalation Management use case and Support
+Operations Product support this objective. Escalation Pressure Signal measures
+when the support operation is under stress.

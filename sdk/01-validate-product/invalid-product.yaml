@@ -1,0 +1,9 @@
+schema: https://opendataproducts.org/v4.0/schema/odps.json
+version: "4.0"
+product:
+  name: Airport Operations Performance
+  visibility: public
+  status: production
+  type: dataset
+  description: This example is intentionally invalid because productID is missing.
+  valueProposition: Helps operations teams reduce delays and coordinate airport resources.
