@@ -1,0 +1,30 @@
+version: "1.0"
+projectRoot: ..
+
+recipes:
+  paths:
+    - workflows/
+  defaultRecipe: workflows/ci-validate-catalog.yaml
+
+providers:
+  generationConfig: config/generation.config.yaml
+  defaultProviderRef: claude
+
+execution:
+  manifestDir: .odp/runs/
+  allowWrites:
+    - workspace/
+  requireReviewFor:
+    - release
+    - production
+  stopOnWarning: false
+
+outputs:
+  defaultJson: true
+  keepRunLogs: true
+  reportName: recipe-run.json
+
+gui:
+  exposeDryRunPlan: true
+  exposeRunManifest: true
+  allowStateChangingRuns: false

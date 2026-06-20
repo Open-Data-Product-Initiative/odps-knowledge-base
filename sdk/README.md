@@ -2,7 +2,7 @@
 
 The Open Data Products Python SDK is the Python package for working with the Open Data Product Standards family in code. It is published on PyPI as [`open-data-products`](https://pypi.org/project/open-data-products/).
 
-Use this section when you want to install the SDK, validate specification files, automate standards workflows, or build applications that work with ODPS, ODPC, ODPV, and future ODPG material.
+Use this section when you want to install the SDK, validate specification files, automate standards workflows, run ODPR recipes, or build applications that work with ODPS, ODPC, ODPV, ODPG, and ODPR material.
 
 ## Start Here
 
@@ -48,6 +48,24 @@ or a configured online provider.
 9. [Build catalog and graph from the same fragments](09-build-catalog-and-graph-from-fragments/)
 10. [Set up a local LLM with Ollama and Qwen](10-set-up-local-llm-qwen/)
 11. [Configure LLMs with a local config file](11-configure-llms-with-local-config-file/)
+
+### Recipe Workflow Guides
+
+These guides use ODPR recipe workflows. They show how to validate, list,
+dry-run, execute, review, and audit repeatable SDK workflows from this cloned
+knowledge-base repo.
+
+12. [Why recipes matter and what they run](12-why-recipes-and-what-they-run/)
+13. [Validate, list, and dry-run recipes](13-validate-list-and-dry-run-recipes/)
+14. [Recipe config and execution policy](14-recipe-config-and-execution-policy/)
+15. [Run deterministic recipes](15-run-deterministic-recipes/)
+16. [Run LLM-backed recipes](16-run-llm-backed-recipes/)
+17. [Portfolio recipes end to end](17-portfolio-recipes-end-to-end/)
+18. [Recipes for agents and CI](18-recipes-for-agents-and-ci/)
+
+Shared recipe files, runner config, provider config, source lanes, and example
+workspace artifacts live in [recipes/](recipes/). For a compact reference, see
+[ODPR recipe workflows reference](recipe-workflows-reference.md).
 
 ## Related Tools
 

@@ -1,0 +1,54 @@
+schema: https://opendataproducts.org/odpc-v1.0/schema/odpc.yaml
+version: "1.0"
+kind: Catalog
+catalog:
+  metadata:
+    id: CAT-RECIPE-EXAMPLE
+    name:
+      en: Recipe Example Catalog
+    description:
+      en: Minimal catalog used by ODPR recipe examples.
+  businessObjectives:
+    - id: OBJ-RETENTION
+      name:
+        en: Improve Retention
+      description:
+        en: Reduce customer churn risk.
+      status: active
+      priority: high
+  useCases:
+    - id: UC-RETENTION
+      name:
+        en: Retention Workflow
+      description:
+        en: Help customer teams intervene before churn.
+      status: active
+      priority: high
+  signals:
+    - id: SIG-CHURN
+      name:
+        en: Churn Signal
+      description:
+        en: Market signal for retention risk.
+      type: market
+      confidence: high
+      source:
+        origin: internal
+        method: example analysis
+      observedAt: "2026-06-19T00:00:00Z"
+  productReferences:
+    - id: PR-CUSTOMER
+      productID: customer-product
+      productVersion: "4.1"
+      name:
+        en: Customer Product
+      description:
+        en: Customer analytics product.
+      status: production
+      visibility: internal
+      type: dataset
+      productModel:
+        standard: ODPS
+        version: "4.1"
+        format: yaml
+        $ref: ../odps/products/customer-product.yaml

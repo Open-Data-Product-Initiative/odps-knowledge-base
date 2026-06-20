@@ -37,7 +37,7 @@
   <tr>
     <td align="center" width="20%"><h1>34</h1><strong>FAQs</strong></td>
     <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
-    <td align="center" width="20%"><h1>12</h1><strong>SDK Guides</strong></td>
+    <td align="center" width="20%"><h1>19</h1><strong>SDK Guides</strong></td>
     <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
     <td align="center" width="20%"><h1>4</h1><strong>Courses</strong></td>
   </tr>
@@ -64,12 +64,13 @@
 
 ## Open Data Products Python SDK
 
-Use the Open Data Products Python SDK when you want to work with the standards family in Python, including ODPS, ODPC, ODPV, and future ODPG workflows. The SDK is published on PyPI as [`open-data-products`](https://pypi.org/project/open-data-products/).
+Use the Open Data Products Python SDK when you want to work with the standards family in Python, including ODPS, ODPC, ODPV, ODPG, and ODPR recipe workflows. The SDK is published on PyPI as [`open-data-products`](https://pypi.org/project/open-data-products/).
 
 - [Open the SDK guide section](sdk/README.md)
 - Install from PyPI with `python -m pip install open-data-products`
 - Start with `open-data-products --help`
-- Follow 12 self-contained SDK guide folders covering setup, validation, vocabulary helpers, ODPG conversion, local LLM configuration, Qwen setup, and LLM generation workflows
+- Follow 19 self-contained SDK guide folders covering setup, validation, vocabulary helpers, ODPG conversion, local LLM configuration, Qwen setup, LLM generation workflows, and ODPR recipe workflows
+- Use the local [recipe examples](sdk/recipes/) and [ODPR recipe workflows reference](sdk/recipe-workflows-reference.md) for validation, dry-runs, guarded execution, run manifests, agents, and CI
 
 ---
 

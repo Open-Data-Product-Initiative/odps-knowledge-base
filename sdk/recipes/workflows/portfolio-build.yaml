@@ -1,0 +1,35 @@
+schema: https://opendataproducts.org/odpr-v1.0/schema/odpr.yaml
+version: "1.0"
+kind: Recipe
+recipe:
+  metadata:
+    id: RCP-PORTFOLIO-BUILD-001
+    name:
+      en: Build Example Portfolio
+    description:
+      en: Build a portfolio workspace from source lane notes through guarded LLM execution.
+    tags:
+      - portfolio
+      - build
+      - llm
+  version: "1.0.0"
+  type: dev
+  review:
+    required: true
+  execution:
+    providerRef: claude
+  steps:
+    - id: build
+      command: portfolio.build
+      providerRef: claude
+      model: claude-sonnet-4-5
+      with:
+        output: workspace/
+        objectives:
+          - source-lanes/objectives/
+        useCases:
+          - source-lanes/use-cases/
+        signals:
+          - source-lanes/signals/
+        products:
+          - source-lanes/products/

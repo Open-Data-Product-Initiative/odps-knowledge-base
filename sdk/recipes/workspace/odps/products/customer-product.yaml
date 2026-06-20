@@ -1,0 +1,10 @@
+schema: https://opendataproducts.org/v4.0/schema/odps.json
+version: "4.0"
+product:
+  name: Customer Product
+  productID: customer-product
+  description: Customer analytics product for retention workflows.
+  visibility: public
+  status: production
+  type: dataset
+  versionNotes: Minimal ODPS product used by recipe examples.

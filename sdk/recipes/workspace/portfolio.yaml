@@ -1,0 +1,16 @@
+metadata:
+  id: example-recipe-portfolio
+  name: Example Recipe Portfolio
+  description: Minimal portfolio workspace used by ODPR recipe examples.
+  generatedAt: "2026-06-19T00:00:00Z"
+  sdkVersion: "0.3.0"
+sources:
+  objectives:
+    count: 1
+  useCases:
+    count: 1
+  signals:
+    count: 1
+  products:
+    count: 1
+versions: []

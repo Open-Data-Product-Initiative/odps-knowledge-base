@@ -1,0 +1,22 @@
+schema: https://opendataproducts.org/odpg-v1.0/schema/odpg.yaml
+version: "1.0"
+kind: Graph
+graph:
+  metadata:
+    id: GRAPH-RECIPE-EXAMPLE
+    name:
+      en: Recipe Example Graph
+    description:
+      en: Minimal graph used by ODPR recipe examples.
+  nodes:
+    - id: UC-RETENTION
+      type: UseCase
+      $ref: ../odpc/catalog.yaml#/catalog/useCases/0
+    - id: PR-CUSTOMER
+      type: DataProduct
+      $ref: ../odpc/catalog.yaml#/catalog/productReferences/0
+  edges:
+    - from: UC-RETENTION
+      to: PR-CUSTOMER
+      type: uses
+      confidence: high

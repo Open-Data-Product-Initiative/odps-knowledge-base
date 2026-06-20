@@ -1,0 +1,8 @@
+useCase:
+  id: customer-retention
+  name:
+    en: Customer Retention
+  description:
+    en: Improve retention decisions with trusted customer analytics.
+  status: draft
+  priority: high

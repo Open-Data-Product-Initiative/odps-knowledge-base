@@ -1,0 +1,15 @@
+provider: ollama
+model: qwen2.5
+input: source_docs/
+output: workspace/fragments/
+
+providers:
+  ollama:
+    type: ollama
+    model: qwen2.5
+    baseUrl: http://localhost:11434
+
+  claude:
+    type: anthropic
+    model: claude-sonnet-4-5
+    apiKeyEnv: ANTHROPIC_API_KEY

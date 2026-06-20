@@ -1,0 +1,11 @@
+productReference:
+  id: customer-analytics-product
+  productID: customer-product
+  productVersion: "4.1"
+  name:
+    en: Customer Analytics Product
+  description:
+    en: Trusted customer analytics for retention decisions.
+  status: draft
+  visibility: internal
+  type: dataset
