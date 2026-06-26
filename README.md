@@ -39,14 +39,14 @@
     <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
     <td align="center" width="20%"><h1>19</h1><strong>SDK Guides</strong></td>
     <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
-    <td align="center" width="20%"><h1>4</h1><strong>Courses</strong></td>
+    <td align="center" width="20%"><h1>5</h1><strong>Courses</strong></td>
   </tr>
   <tr>
     <td align="center"><code>faq/</code><br>Practical guidance for ODPS, ODPC, ODPV, and future ODPG.</td>
     <td align="center"><code>faq/yaml/</code><br>Reusable YAML for specs, catalogs, vocabulary, contracts, pricing, access, SLA, and DQ.</td>
     <td align="center"><code>sdk/</code><br>Python SDK guides for installing, validating, generating, and automating standards workflows.</td>
     <td align="center"><code>resources/</code><br>Toolkit, visual, whitepaper, and supporting downloads.</td>
-    <td align="center"><a href="#udemy-masterclasses">Training</a><br>Udemy MasterClasses for ODPS, monetization, product mindset, and governance.</td>
+    <td align="center"><a href="#udemy-masterclasses">Training</a><br>Udemy MasterClasses for ODPS, SDK workflows, monetization, product mindset, and governance.</td>
   </tr>
 </table>
 
@@ -187,12 +187,15 @@ Use these when you want to move from reading the standards to validating files, 
 
 <a id="udemy-masterclasses"></a>
 
-## 4 Training Courses
+## 5 Training Courses
 
-Apply Open Data Product standards and data product practices with structured Udemy MasterClasses on ODPS, monetization, governance, AI readiness, and product strategy.
+Apply Open Data Product standards and data product practices with structured Udemy MasterClasses on ODPS, the SDK, the extended standards family, monetization, governance, AI readiness, and product strategy.
 
 - **[Master the Leading Data Product Specification with GPT tool](https://www.udemy.com/course/master-the-open-data-product-specification-with-gpt-tool/?referralCode=7602F38C9E58976291A3)**
   A focused introduction to ODPS for architects, business managers, and product owners.
+
+- **[Scalable Data Product Value Management with Agent ready SDK](https://www.udemy.com/course/scalable-data-product-value-management-with-agent-ready-sdk/?referralCode=DE23AF7C13D47E90B996)**
+  Build AI data products with the ODPS family, SDK validation, product catalogs, value graphs, and agent-ready workflows.
 
 - **[Data Product Monetization MasterClass](https://www.udemy.com/course/data-product-monetization-masterclass/?referralCode=53941B985FBFA582CBC7)**
   Learn how to turn ODPS-based products into revenue-generating offerings, including pricing, AI monetization, and payment strategy.
