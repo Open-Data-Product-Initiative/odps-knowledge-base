@@ -37,7 +37,7 @@
   <tr>
     <td align="center" width="20%"><h1>34</h1><strong>FAQs</strong></td>
     <td align="center" width="20%"><h1>14</h1><strong>Examples</strong></td>
-    <td align="center" width="20%"><h1>19</h1><strong>SDK Guides</strong></td>
+    <td align="center" width="20%"><h1>20</h1><strong>SDK Guides</strong></td>
     <td align="center" width="20%"><h1>3</h1><strong>Resources</strong></td>
     <td align="center" width="20%"><h1>5</h1><strong>Courses</strong></td>
   </tr>
@@ -69,7 +69,8 @@ Use the Open Data Products Python SDK when you want to work with the standards f
 - [Open the SDK guide section](sdk/README.md)
 - Install from PyPI with `python -m pip install open-data-products`
 - Start with `open-data-products --help`
-- Follow 19 self-contained SDK guide folders covering setup, validation, vocabulary helpers, ODPG conversion, local LLM configuration, Qwen setup, LLM generation workflows, and ODPR recipe workflows
+- Follow 20 self-contained SDK guide folders covering setup, validation, generation, ODPR recipes, and the experimental OpenMetadata integration
+- Explore the [OpenMetadata integration guide](sdk/19-openmetadata-integration/) for product discovery, export, and reviewed platform operations (install the SDK from GitHub)
 - Use the local [recipe examples](sdk/recipes/) and [ODPR recipe workflows reference](sdk/recipe-workflows-reference.md) for validation, dry-runs, guarded execution, run manifests, agents, and CI
 
 ---

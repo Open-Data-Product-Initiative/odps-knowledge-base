@@ -67,6 +67,13 @@ Shared recipe files, runner config, provider config, source lanes, and example
 workspace artifacts live in [recipes/](recipes/). For a compact reference, see
 [ODPR recipe workflows reference](recipe-workflows-reference.md).
 
+### OpenMetadata Integration
+
+19. [Connect to OpenMetadata and work with products, domains, and contracts](19-openmetadata-integration/)
+
+This experimental integration is available from a pinned GitHub commit; see
+the guide for installation, version limits, and write safeguards.
+
 ## Related Tools
 
 The Open Data Products Python SDK is separate from the ODPS Python Library. The SDK covers the broader Open Data Product Standards family through the `open-data-products` package, while the ODPS Python Library remains a separate ODPS v4.0-focused library.

@@ -1,0 +1,17 @@
+version: 1
+default_connection: openmetadata
+connections:
+  openmetadata:
+    platform: openmetadata
+    base_url: https://metadata.example.org
+    read_only: true
+    auth:
+      type: bearer_token
+      token:
+        source: env
+        name: OPENMETADATA_TOKEN
+    http:
+      timeout_seconds: 30
+      verify_tls: true
+      allow_insecure_http: false
+      # ca_bundle: /path/to/company-ca.pem
