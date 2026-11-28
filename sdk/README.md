@@ -25,6 +25,13 @@ Start with the setup guide if you have never worked with Python, `pip`, PyPI, or
 Each guide is a self-contained folder. Open the folder, follow its `README.md`,
 and use any sample files stored beside it.
 
+### Configuration
+
+22. [Configure providers, credentials, connections, and organization details](22-config-setup/)
+
+Install the SDK first using [Guide 0](00-setup-python/) if needed. This guided
+configuration is optional for workflows that do not use providers or platforms.
+
 ### Non-LLM Guides
 
 These guides do not require an LLM. They cover installation, validation,

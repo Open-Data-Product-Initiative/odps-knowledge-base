@@ -13,6 +13,7 @@ open-data-products config setup
 open-data-products config show
 ```
 
+For a step-by-step configuration walkthrough, see [Guide 22](../22-config-setup/).
 In an interactive terminal, setup can configure the provider and model,
 OpenMetadata, Jira, and organization details. It reviews settings before
 saving. Credentials entered at the hidden prompt are stored in the local `.env`;
