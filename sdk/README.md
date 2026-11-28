@@ -71,8 +71,16 @@ workspace artifacts live in [recipes/](recipes/). For a compact reference, see
 
 19. [Connect to OpenMetadata and work with products, domains, and contracts](19-openmetadata-integration/)
 
-This experimental integration is available from a pinned GitHub commit; see
-the guide for installation, version limits, and write safeguards.
+This integration is experimental. See the guide for version limits and write
+safeguards.
+
+### Handover, Discovery, and Agent Workflows
+
+20. [Prepare a coding-assistant handover and deliver it to Jira](20-handover-and-jira/)
+21. [Use metadata discovery and the MCP agent interface](21-discovery-and-mcp/)
+
+These guides target SDK 0.9.0. Generated products, mappings, contracts and
+plans are drafts and require review.
 
 ## Related Tools
 

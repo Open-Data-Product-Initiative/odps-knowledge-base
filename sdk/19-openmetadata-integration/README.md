@@ -4,12 +4,11 @@ Use the Open Data Products SDK to discover OpenMetadata data products, export an
 ODPC catalog or an ODPS product, and review changes before writing to the
 platform. You can also manage domains and attach an ODCS contract.
 
-**Availability:** This guide describes the experimental integration in the
-[SDK GitHub commit](https://github.com/Open-Data-Product-Initiative/odp-agent-sdk/commit/7036a9730107b357a047a78371ce6301bda89e6e)
-that prepares version 0.8.0. As of 25 November 2026, this commit is on the
-`feat/odpv-profile-interop` branch, while the default branch and PyPI release
-0.7.0 do not include the integration. Install the pinned commit below; the
-interface may change. Examples use a POSIX shell.
+**Availability:** This guide targets the experimental integration in SDK
+version 0.9.0, available from PyPI. The integration was released in
+[version 0.8.0](https://github.com/Open-Data-Product-Initiative/odp-agent-sdk/releases/tag/v0.8.0). Version 0.9 removed the top-level `integrations` command; use
+`openmetadata api` for advanced operations and update 0.8 scripts accordingly.
+Examples use a POSIX shell.
 
 The SDK integration has been tested against one OpenMetadata 2.1.0 deployment;
 behavior and permissions may differ elsewhere. Product creation and permanent
@@ -19,13 +18,12 @@ proof of business approval or data quality.
 
 ## 1. Install the integration-capable SDK
 
-In a virtual environment with Git installed, install the tested SDK commit from
-GitHub:
+In a virtual environment, install the released SDK:
 
 ```sh
-python -m pip install "open-data-products @ git+https://github.com/Open-Data-Product-Initiative/odp-agent-sdk.git@7036a9730107b357a047a78371ce6301bda89e6e"
+python -m pip install "open-data-products==0.9.0"
 open-data-products openmetadata products --help
-open-data-products integrations --help
+open-data-products openmetadata api --help
 ```
 
 If these commands are missing, check which SDK installation is active. This
@@ -42,14 +40,14 @@ any deployment path prefix. The example starts read-only.
 ```sh
 cp sdk/19-openmetadata-integration/connections.example.yaml ~/connections.yaml
 # Set OPENMETADATA_TOKEN in your shell or secret manager without committing it.
-open-data-products integrations list --config ~/connections.yaml
+open-data-products openmetadata api list --config ~/connections.yaml
 open-data-products connect openmetadata --config ~/connections.yaml
 ```
 
 Run the copy command from the knowledge-base repository root. Set the token as
-an environment variable before connecting; the SDK does not automatically load
-`.env` files. Keep tokens, private URLs and retrieved customer metadata out of
-version control. TLS verification is enabled by default; configure `ca_bundle`
+an environment variable before connecting. The platform CLI can load the local
+`.env` file; existing process environment variables take precedence. Keep tokens,
+private URLs and retrieved customer metadata out of version control. TLS verification is enabled by default; configure `ca_bundle`
 for a private CA. Plain HTTP needs `allow_insecure_http: true` and sends the
 bearer token unencrypted.
 
@@ -63,16 +61,15 @@ default profile.
 ## 3. Discover products and domains
 
 ```sh
-open-data-products integrations domains openmetadata --config ~/connections.yaml --json
+open-data-products openmetadata api domains openmetadata --config ~/connections.yaml --json
 open-data-products openmetadata products list --json
 open-data-products openmetadata products search "customer" --limit 20 --json
-open-data-products openmetadata products get PRODUCT_UUID --json
-open-data-products openmetadata products get PRODUCT_UUID --format odps --json
+open-data-products openmetadata products get --id PRODUCT_UUID --json
+open-data-products openmetadata products get --id PRODUCT_UUID --format odps --json
 ```
 
 Replace `PRODUCT_UUID` with an actual platform UUID. The short `get` command
-also accepts an exact name or display name; ambiguous matches require an
-interactive selection, so use UUIDs in scripts. Its default format is native;
+requires a UUID. Its default format is native;
 `--format odps` requests the platform's ODPS export.
 
 List and search return validated ODPC 1.0 catalogs, with references to native
@@ -100,7 +97,7 @@ Existing output files are not overwritten.
 The explicit integration command can save the ODPS export and provenance:
 
 ```sh
-open-data-products integrations products get openmetadata \
+open-data-products openmetadata api products get openmetadata \
   --config ~/connections.yaml --id PRODUCT_UUID \
   --output product.yaml --provenance product.provenance.json
 open-data-products validate product.yaml
@@ -146,10 +143,10 @@ only review; they do not create products.
 For scripts, use the explicit two-step workflow:
 
 ```sh
-open-data-products integrations products create openmetadata \
+open-data-products openmetadata api products create openmetadata \
   --config ~/connections.yaml --source product.yaml --domain YOUR_DOMAIN --json
 # Inspect the review, then use its review_sha256 with the same arguments:
-open-data-products integrations products create openmetadata \
+open-data-products openmetadata api products create openmetadata \
   --config ~/connections.yaml --source product.yaml --domain YOUR_DOMAIN \
   --execute --reviewed-sha256 REVIEW_SHA256 --json
 ```
@@ -196,10 +193,10 @@ Inspect the destination before retrying an uncertain write.
 Create a domain with a review followed by explicit execution:
 
 ```sh
-open-data-products integrations domain-create openmetadata \
+open-data-products openmetadata api domain-create openmetadata \
   --config ~/connections.yaml --name Retail --description "Retail data" --type Aggregate
 # After review, repeat with the same arguments and the returned digest:
-open-data-products integrations domain-create openmetadata \
+open-data-products openmetadata api domain-create openmetadata \
   --config ~/connections.yaml --name Retail --description "Retail data" --type Aggregate \
   --execute --reviewed-sha256 REVIEW_SHA256
 ```
@@ -210,15 +207,15 @@ Supported domain types are `Source-aligned`, `Consumer-aligned`, and
 Attach one ODCS 3.1.0 YAML contract to a product that has no contract:
 
 ```sh
-open-data-products integrations products contract-import openmetadata \
+open-data-products openmetadata api products contract-import openmetadata \
   --config ~/connections.yaml --id PRODUCT_UUID --source contract.yaml
 # After review, repeat with the same arguments and the returned digest:
-open-data-products integrations products contract-import openmetadata \
+open-data-products openmetadata api products contract-import openmetadata \
   --config ~/connections.yaml --id PRODUCT_UUID --source contract.yaml \
   --execute --reviewed-sha256 REVIEW_SHA256
-open-data-products integrations products contract-get openmetadata \
+open-data-products openmetadata api products contract-get openmetadata \
   --config ~/connections.yaml --id PRODUCT_UUID --json
-open-data-products integrations products contract-source openmetadata \
+open-data-products openmetadata api products contract-source openmetadata \
   --config ~/connections.yaml --id PRODUCT_UUID --output original-contract.yaml
 ```
 
@@ -243,6 +240,6 @@ with open_integration(config.select("openmetadata")) as adapter:
 ```
 
 The adapter's `list_products()` and `search_products()` return native paginated
-results; the `*_odpc()` methods return catalogs. Consult the [SDK integration reference](https://github.com/Open-Data-Product-Initiative/odp-agent-sdk/blob/7036a9730107b357a047a78371ce6301bda89e6e/docs/integrations/openmetadata.md)
+results; the `*_odpc()` methods return catalogs. Consult the [SDK integration reference](https://github.com/Open-Data-Product-Initiative/odp-agent-sdk/blob/v0.9.0/docs/integrations/openmetadata.md)
 for Python write methods, error handling, detailed mapping limits and recovery
 procedures.

@@ -70,7 +70,8 @@ Use the Open Data Products Python SDK when you want to work with the standards f
 - Install from PyPI with `python -m pip install open-data-products`
 - Start with `open-data-products --help`
 - Follow 20 self-contained SDK guide folders covering setup, validation, generation, ODPR recipes, and the experimental OpenMetadata integration
-- Explore the [OpenMetadata integration guide](sdk/19-openmetadata-integration/) for product discovery, export, and reviewed platform operations (install the SDK from GitHub)
+- Prepare [coding-assistant handovers and Jira delivery](sdk/20-handover-and-jira/) and use [discovery and MCP](sdk/21-discovery-and-mcp/) with SDK 0.9.
+- Explore the [OpenMetadata integration guide](sdk/19-openmetadata-integration/) for product discovery, export, and reviewed platform operations
 - Use the local [recipe examples](sdk/recipes/) and [ODPR recipe workflows reference](sdk/recipe-workflows-reference.md) for validation, dry-runs, guarded execution, run manifests, agents, and CI
 
 ---
